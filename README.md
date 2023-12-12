@@ -5,10 +5,15 @@ This project is aimed at make a citation map visualizing tool, which can visuali
 ## Project Structure
 
 ```text
-README.md
-citation_map.json
-index.html
-parse_xml_from_pubmed.py
+./
+|-   app.py
+|-   citation_map.json
+|-   example.PMID.txt
+|-   index.html
+|-   README.md
+|   
+\---img
+     \--- example.png
 ```
 
 ## Working mode
