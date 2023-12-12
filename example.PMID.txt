@@ -1,0 +1,6 @@
+# These articles are some studies about CRISPR-Cas9 technology
+24651067 # Hum Mol Genet. 2014 Sep 15;23(R1):R40-6.
+32286628 # Nucleic Acids Res. 2020 May 21;48(9):4698-4708.
+32184769 # Front Microbiol. 2020 Feb 28;11:282.
+31606751 # Hum Genet. 2019 Dec;138(11-12):1217-1225
+

@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>network visualization</title>
+		<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.3/echarts.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.js"></script>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{margin:20px;padding:20px;}
+body{background-color:#efefef;}
+</style>
+	</head>
+	<body>
+		<h1>network visualization</h1>
+		<!--div id="main" style="width:90%;min-height=500px;margin:20px;padding:20px;border-radius:20px;box-shadow:0px 0px 5px #ccc;background-color:#ffffff;overflow:visible"-->
+		<div id="main" style="width:90%;height:800px;margin:20px;padding:20px;border-radius:20px;box-shadow:0px 0px 5px #ccc;background-color:#ffffff;">
+		</div>
+
+<!----------------- The echart script start at here ------------------->
+<script type="text/javascript">
+
+// Following code is used for automatically set canvas height
+//$.get("./citation_map.json",function(x){
+//  var nodeNum = x["nodes"].length;
+//  var divHeight = 300 + nodeNum * 50 / 43;
+//  document.getElementById("main").style["height"]     = divHeight+"px"; 
+  //document.getElementById("main").style["min-height"] = divHeight+"px"; 
+//})
+
+
+/* import * as echarts from 'echarts/core'; */
+/* import { LegendComponent } from 'echarts/components'; */
+/* import { GraphChart } from 'echarts/charts'; */
+/* import { CanvasRenderer } from 'echarts/renderers'; */
+/* echarts.use([LegendComponent, GraphChart, CanvasRenderer]); */
+/* var ROOT_PATH = 'https://echarts.apache.org/examples'; */
+
+var chartDom = document.getElementById('main');
+var myChart = echarts.init(chartDom);
+var option;
+
+myChart.showLoading();
+//myChart.showLoading();
+var JSON_PATH = "./citation_map.json";
+//var JSON_PATH = "https://echarts.apache.org/examples/data/asset/data/webkit-dep.json";
+$.get(JSON_PATH, function (data) {
+// console.log(">>> data is;\n");
+// console.log(data);
+// console.log("<<< data end;\n");
+  myChart.hideLoading();
+  option = {
+    legend: {
+      data: ['reference', 'query', 'citation']
+    },
+    series: [
+      {
+        type: 'graph',
+        layout: 'force',
+        animation: false,
+        symbolSize:15,
+        label: {
+          position: 'top',
+          formatter: '{b}',
+          fontSize: '12px',
+          fontFamily:'Consolas',
+        },
+        draggable: true,
+        data: data.nodes.map(function (node, idx) {
+          node.id = idx;
+          return node;
+        }),
+        categories: data.categories,
+        force: {
+          edgeLength: 5,
+          repulsion: 50,
+          gravity: 0.3
+        },
+        edges: data.links
+      }
+    ]
+  };
+  myChart.setOption(option);
+}, dataType = "json");
+
+
+option && myChart.setOption(option);
+// myChart.setOption(option);
+
+</script>
+<!----------------- The echart script  end  at here ------------------->
+
+
+	</body>
+
+</html>
+
+
+
+

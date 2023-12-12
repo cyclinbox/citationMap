@@ -1,0 +1,2824 @@
+{
+	"type": "force",
+	"categories": [
+		{
+			"name": "reference",
+			"keyword": {},
+			"base": "reference"
+		},
+		{
+			"name": "query",
+			"keyword": {},
+			"base": "query"
+		},
+		{
+			"name": "citation",
+			"keyword": {},
+			"base": "citation"
+		}
+	],
+	"nodes": [
+		{
+			"PMID": 24651067,
+			"title": "CRISPR/Cas9 for genome editing: progress, implications and challenges.",
+			"journal": "Human molecular genetics",
+			"authorList": [
+				"Zhang Feng",
+				"Wen Yan",
+				"Guo Xiong"
+			],
+			"DOI": "10.1093/hmg/ddu125",
+			"date": "2015-05-11",
+			"PMC": "",
+			"citation": "",
+			"category": 1,
+			"name": "{\n\t\"PMID\": 24651067,\n\t\"title\": \"CRISPR/Cas9 for genome editing: progress, implications and challenges.\",\n\t\"journal\": \"Human molecular genetics\",\n\t\"DOI\": \"10.1093/hmg/ddu125\",\n\t\"date\": \"2015-05-11\",\n\t\"authorList\": [\n\t\t\"Zhang Feng\",\n\t\t\"Wen Yan\",\n\t\t\"Guo Xiong\"\n\t]\n}"
+		},
+		{
+			"PMID": 32286628,
+			"title": "Machine learning predicts new anti-CRISPR proteins.",
+			"journal": "Nucleic acids research",
+			"authorList": [
+				"Eitzinger Simon",
+				"Asif Amina",
+				"Watters Kyle E",
+				"Iavarone Anthony T",
+				"Knott Gavin J",
+				"Doudna Jennifer A",
+				"Minhas Fayyaz Ul Amir Afsar"
+			],
+			"DOI": "10.1093/nar/gkaa219",
+			"date": "2020-09-08",
+			"PMC": "",
+			"citation": "",
+			"category": 1,
+			"name": "{\n\t\"PMID\": 32286628,\n\t\"title\": \"Machine learning predicts new anti-CRISPR proteins.\",\n\t\"journal\": \"Nucleic acids research\",\n\t\"DOI\": \"10.1093/nar/gkaa219\",\n\t\"date\": \"2020-09-08\",\n\t\"authorList\": [\n\t\t\"Eitzinger Simon\",\n\t\t\"Asif Amina\",\n\t\t\"Watters Kyle E\",\n\t\t\"Iavarone Anthony T\",\n\t\t\"Knott Gavin J\",\n\t\t\"Doudna Jennifer A\",\n\t\t\"Minhas Fayyaz Ul Amir Afsar\"\n\t]\n}"
+		},
+		{
+			"PMID": 32184769,
+			"title": "Regulation of Microbial Metabolic Rates Using CRISPR Interference With Expanded PAM Sequences.",
+			"journal": "Frontiers in microbiology",
+			"authorList": [
+				"Kim Bumjoon",
+				"Kim Hyun Ju",
+				"Lee Sang Jun"
+			],
+			"DOI": "10.3389/fmicb.2020.00282",
+			"date": "2020-09-28",
+			"PMC": "",
+			"citation": "",
+			"category": 1,
+			"name": "{\n\t\"PMID\": 32184769,\n\t\"title\": \"Regulation of Microbial Metabolic Rates Using CRISPR Interference With Expanded PAM Sequences.\",\n\t\"journal\": \"Frontiers in microbiology\",\n\t\"DOI\": \"10.3389/fmicb.2020.00282\",\n\t\"date\": \"2020-09-28\",\n\t\"authorList\": [\n\t\t\"Kim Bumjoon\",\n\t\t\"Kim Hyun Ju\",\n\t\t\"Lee Sang Jun\"\n\t]\n}"
+		},
+		{
+			"PMID": 31606751,
+			"title": "CRISPR/Cas9 facilitates genomic editing for large-scale functional studies in pluripotent stem cell cultures.",
+			"journal": "Human genetics",
+			"authorList": [
+				"Li Xiao-Fei",
+				"Zhou Yong-Wei",
+				"Cai Peng-Fei",
+				"Fu Wei-Cong",
+				"Wang Jin-Hua",
+				"Chen Jin-Yang",
+				"Yang Qi-Ning"
+			],
+			"DOI": "10.1007/s00439-019-02071-z",
+			"date": "2019-12-06",
+			"PMC": "",
+			"citation": "",
+			"category": 1,
+			"name": "{\n\t\"PMID\": 31606751,\n\t\"title\": \"CRISPR/Cas9 facilitates genomic editing for large-scale functional studies in pluripotent stem cell cultures.\",\n\t\"journal\": \"Human genetics\",\n\t\"DOI\": \"10.1007/s00439-019-02071-z\",\n\t\"date\": \"2019-12-06\",\n\t\"authorList\": [\n\t\t\"Li Xiao-Fei\",\n\t\t\"Zhou Yong-Wei\",\n\t\t\"Cai Peng-Fei\",\n\t\t\"Fu Wei-Cong\",\n\t\t\"Wang Jin-Hua\",\n\t\t\"Chen Jin-Yang\",\n\t\t\"Yang Qi-Ning\"\n\t]\n}"
+		},
+		{
+			"PMID": 16079334,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Bolotin A., Quinquis B., Sorokin A., Dusko\u00a0Ehrlich S.. Clustered regularly interspaced short palindrome repeats (CRISPRs) have spacers of extrachromosomal origin. Microbiology. 2005; 151:2551\u20132561.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 16079334,\n\t\"citation\": \"Bolotin A., Quinquis B., Sorokin A., Dusko\\u00a0Ehrlich S.. Clustered regularly interspaced short palindrome repeats (CRISPRs) have spacers of extrachromosomal origin. Microbiology. 2005; 151:2551\\u20132561.\"\n}"
+		},
+		{
+			"PMID": 20056882,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Horvath P., Barrangou R.. CRISPR/Cas, the immune system of bacteria and archaea. Science. 2010; 327:167\u2013170.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 20056882,\n\t\"citation\": \"Horvath P., Barrangou R.. CRISPR/Cas, the immune system of bacteria and archaea. Science. 2010; 327:167\\u2013170.\"\n}"
+		},
+		{
+			"PMID": 25574773,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Barrangou R. The roles of CRISPR\u2013Cas systems in adaptive immunity and beyond. Curr. Opin. Immunol. 2015; 32:36\u201341.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25574773,\n\t\"citation\": \"Barrangou R. The roles of CRISPR\\u2013Cas systems in adaptive immunity and beyond. Curr. Opin. Immunol. 2015; 32:36\\u201341.\"\n}"
+		},
+		{
+			"PMID": 30166482,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6455913",
+			"citation": "Knott G.J., Doudna J.A.. CRISPR\u2013Cas guides the future of genetic engineering. Science. 2018; 361:866\u2013869.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30166482,\n\t\"PMC\": \"PMC6455913\",\n\t\"citation\": \"Knott G.J., Doudna J.A.. CRISPR\\u2013Cas guides the future of genetic engineering. Science. 2018; 361:866\\u2013869.\"\n}"
+		},
+		{
+			"PMID": -691954,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Song G., Jia M., Chen K., Kong X., Khattak B., Xie C., Li A., Mao L.. CRISPR/Cas9: a powerful tool for crop genome editing. Crop J. 2016; 4:75\u201382.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": -691954,\n\t\"citation\": \"Song G., Jia M., Chen K., Kong X., Khattak B., Xie C., Li A., Mao L.. CRISPR/Cas9: a powerful tool for crop genome editing. Crop J. 2016; 4:75\\u201382.\"\n}"
+		},
+		{
+			"PMID": 26961639,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Ledford H. CRISPR: gene editing is just the beginning. Nature. 2016; 531:156\u2013159.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26961639,\n\t\"citation\": \"Ledford H. CRISPR: gene editing is just the beginning. Nature. 2016; 531:156\\u2013159.\"\n}"
+		},
+		{
+			"PMID": 27362483,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC4928872",
+			"citation": "van\u00a0Diemen F.R., Kruse E.M., Hooykaas M.J.G., Bruggeling C.E., Sch\u00fcrch A.C., van\u00a0Ham P.M., Imhof S.M., Nijhuis M., Wiertz E.J.H.J., Lebbink R.J.. CRISPR/Cas9-mediated genome editing of Herpesviruses limits productive and latent infections. PLoS Pathogens. 2016; 12:e1005701.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 27362483,\n\t\"PMC\": \"PMC4928872\",\n\t\"citation\": \"van\\u00a0Diemen F.R., Kruse E.M., Hooykaas M.J.G., Bruggeling C.E., Sch\\u00fcrch A.C., van\\u00a0Ham P.M., Imhof S.M., Nijhuis M., Wiertz E.J.H.J., Lebbink R.J.. CRISPR/Cas9-mediated genome editing of Herpesviruses limits productive and latent infections. PLoS Pathogens. 2016; 12:e1005701.\"\n}"
+		},
+		{
+			"PMID": 25430774,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Doudna J.A., Charpentier E.. The new frontier of genome engineering with CRISPR\u2013Cas9. Science. 2014; 346:1258096.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25430774,\n\t\"citation\": \"Doudna J.A., Charpentier E.. The new frontier of genome engineering with CRISPR\\u2013Cas9. Science. 2014; 346:1258096.\"\n}"
+		},
+		{
+			"PMID": 23242138,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC4931913",
+			"citation": "Bondy-Denomy J., Pawluk A., Maxwell K.L., Davidson A.R.. Bacteriophage genes that inactivate the CRISPR/Cas bacterial immune system. Nature. 2013; 493:429\u2013432.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 23242138,\n\t\"PMC\": \"PMC4931913\",\n\t\"citation\": \"Bondy-Denomy J., Pawluk A., Maxwell K.L., Davidson A.R.. Bacteriophage genes that inactivate the CRISPR/Cas bacterial immune system. Nature. 2013; 493:429\\u2013432.\"\n}"
+		},
+		{
+			"PMID": 30190307,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6185749",
+			"citation": "Watters K.E., Fellmann C., Bai H.B., Ren S.M., Doudna J.A.. Systematic discovery of natural CRISPR\u2013Cas12a inhibitors. Science. 2018; 362:236\u2013239.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30190307,\n\t\"PMC\": \"PMC6185749\",\n\t\"citation\": \"Watters K.E., Fellmann C., Bai H.B., Ren S.M., Doudna J.A.. Systematic discovery of natural CRISPR\\u2013Cas12a inhibitors. Science. 2018; 362:236\\u2013239.\"\n}"
+		},
+		{
+			"PMID": 30190308,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6520112",
+			"citation": "Marino N.D., Zhang J.Y., Borges A.L., Sousa A.A., Leon L.M., Rauch B.J., Walton R.T., Berry J.D., Joung J.K., Kleinstiver B.P. et al. .. Discovery of widespread type I and type V CRISPR\u2013Cas inhibitors. Science. 2018; 362:240\u2013242.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30190308,\n\t\"PMC\": \"PMC6520112\",\n\t\"citation\": \"Marino N.D., Zhang J.Y., Borges A.L., Sousa A.A., Leon L.M., Rauch B.J., Walton R.T., Berry J.D., Joung J.K., Kleinstiver B.P. et al. .. Discovery of widespread type I and type V CRISPR\\u2013Cas inhibitors. Science. 2018; 362:240\\u2013242.\"\n}"
+		},
+		{
+			"PMID": 28041849,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC5235966",
+			"citation": "Rauch B.J., Silvis M.R., Hultquist J.F., Waters C.S., McGregor M.J., Krogan N.J., Bondy-Denomy J.. Inhibition of CRISPR\u2013Cas9 with Bacteriophage Proteins. Cell. 2017; 168:150\u2013158.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28041849,\n\t\"PMC\": \"PMC5235966\",\n\t\"citation\": \"Rauch B.J., Silvis M.R., Hultquist J.F., Waters C.S., McGregor M.J., Krogan N.J., Bondy-Denomy J.. Inhibition of CRISPR\\u2013Cas9 with Bacteriophage Proteins. Cell. 2017; 168:150\\u2013158.\"\n}"
+		},
+		{
+			"PMID": 28844692,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC5875921",
+			"citation": "Harrington L.B., Doxzen K.W., Ma E., Liu J.J., Knott G.J., Edraki A., Garcia B., Amrani N., Chen J.S., Cofsky J.C. et al. .. A broad-spectrum inhibitor of CRISPR\u2013Cas9. Cell. 2017; 170:1224\u20131233.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28844692,\n\t\"PMC\": \"PMC5875921\",\n\t\"citation\": \"Harrington L.B., Doxzen K.W., Ma E., Liu J.J., Knott G.J., Edraki A., Garcia B., Amrani N., Chen J.S., Cofsky J.C. et al. .. A broad-spectrum inhibitor of CRISPR\\u2013Cas9. Cell. 2017; 170:1224\\u20131233.\"\n}"
+		},
+		{
+			"PMID": 28706995,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC5507636",
+			"citation": "Shin J., Jiang F., Liu J.-J., Bray N.L., Rauch B.J., Baik S.H., Nogales E., Bondy-Denomy J., Corn J.E., Doudna J.A.. Disabling Cas9 by an anti-CRISPR DNA mimic. Sci. Adv. 2017; 3:e1701620.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28706995,\n\t\"PMC\": \"PMC5507636\",\n\t\"citation\": \"Shin J., Jiang F., Liu J.-J., Bray N.L., Rauch B.J., Baik S.H., Nogales E., Bondy-Denomy J., Corn J.E., Doudna J.A.. Disabling Cas9 by an anti-CRISPR DNA mimic. Sci. Adv. 2017; 3:e1701620.\"\n}"
+		},
+		{
+			"PMID": 28985512,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Maxwell K.L. The anti-CRISPR story: a battle for survival. Mol. Cell. 2017; 68:8\u201314.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28985512,\n\t\"citation\": \"Maxwell K.L. The anti-CRISPR story: a battle for survival. Mol. Cell. 2017; 68:8\\u201314.\"\n}"
+		},
+		{
+			"PMID": 27573108,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Pawluk A., Staals R.H.J., Taylor C., Watson B.N.J., Saha S., Fineran P.C., Maxwell K.L., Davidson A.R.. Inactivation of CRISPR\u2013Cas systems by anti-CRISPR proteins in diverse bacterial species. Nat. Microbiol. 2016; 1:16085.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 27573108,\n\t\"citation\": \"Pawluk A., Staals R.H.J., Taylor C., Watson B.N.J., Saha S., Fineran P.C., Maxwell K.L., Davidson A.R.. Inactivation of CRISPR\\u2013Cas systems by anti-CRISPR proteins in diverse bacterial species. Nat. Microbiol. 2016; 1:16085.\"\n}"
+		},
+		{
+			"PMID": 28749735,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6039114",
+			"citation": "Borges A.L., Davidson A.R., Bondy-Denomy J.. The discovery, mechanisms, and evolutionary impact of anti-CRISPRs. Annu. Rev. Virol. 2017; 4:37\u201359.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28749735,\n\t\"PMC\": \"PMC6039114\",\n\t\"citation\": \"Borges A.L., Davidson A.R., Bondy-Denomy J.. The discovery, mechanisms, and evolutionary impact of anti-CRISPRs. Annu. Rev. Virol. 2017; 4:37\\u201359.\"\n}"
+		},
+		{
+			"PMID": 29507349,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "He F., Bhoobalan-Chitty Y., Van L.B., Kjeldsen A.L., Dedola M., Makarova K.S., Koonin E.V., Brodersen D.E., Peng X.. Anti-CRISPR proteins encoded by archaeal lytic viruses inhibit subtype ID immunity. Nat. Microbiol. 2018; 3:461\u2013469.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29507349,\n\t\"citation\": \"He F., Bhoobalan-Chitty Y., Van L.B., Kjeldsen A.L., Dedola M., Makarova K.S., Koonin E.V., Brodersen D.E., Peng X.. Anti-CRISPR proteins encoded by archaeal lytic viruses inhibit subtype ID immunity. Nat. Microbiol. 2018; 3:461\\u2013469.\"\n}"
+		},
+		{
+			"PMID": 28785032,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Hynes A.P., Rousseau G.M., Lemay M.L., Horvath P., Romero D.A., Fremaux C., Moineau S.. An anti-CRISPR from a virulent streptococcal phage inhibits Streptococcus pyogenes Cas9. Nat. Microbiol. 2017; 2:1374\u20131380.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28785032,\n\t\"citation\": \"Hynes A.P., Rousseau G.M., Lemay M.L., Horvath P., Romero D.A., Fremaux C., Moineau S.. An anti-CRISPR from a virulent streptococcal phage inhibits Streptococcus pyogenes Cas9. Nat. Microbiol. 2017; 2:1374\\u20131380.\"\n}"
+		},
+		{
+			"PMID": 30046034,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6060171",
+			"citation": "Hynes A.P., Rousseau G.M., Agudelo D., Goulet A., Amigues B., Loehr J., Romero D.A., Fremaux C., Horvath P., Doyon Y. et al. .. Widespread anti-CRISPR proteins in virulent bacteriophages inhibit a range of Cas9 proteins. Nat. Commun. 2018; 9:2919.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30046034,\n\t\"PMC\": \"PMC6060171\",\n\t\"citation\": \"Hynes A.P., Rousseau G.M., Agudelo D., Goulet A., Amigues B., Loehr J., Romero D.A., Fremaux C., Horvath P., Doyon Y. et al. .. Widespread anti-CRISPR proteins in virulent bacteriophages inhibit a range of Cas9 proteins. Nat. Commun. 2018; 9:2919.\"\n}"
+		},
+		{
+			"PMID": 24736222,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC3993853",
+			"citation": "Pawluk A., Bondy-Denomy J., Cheung V.H.W., Maxwell K.L., Davidson A.R.. A New Group of Phage Anti-CRISPR Genes Inhibits the Type I-E CRISPR\u2013Cas System of Pseudomonas aeruginosa. mBio. 2014; 5:e00896-14.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 24736222,\n\t\"PMC\": \"PMC3993853\",\n\t\"citation\": \"Pawluk A., Bondy-Denomy J., Cheung V.H.W., Maxwell K.L., Davidson A.R.. A New Group of Phage Anti-CRISPR Genes Inhibits the Type I-E CRISPR\\u2013Cas System of Pseudomonas aeruginosa. mBio. 2014; 5:e00896-14.\"\n}"
+		},
+		{
+			"PMID": 29233895,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC5727412",
+			"citation": "Pawluk A., Shah M., Mejdani M., Calmettes C., Moraes T.F., Davidson A.R., Maxwell K.L.. Disabling a Type I-E CRISPR\u2013Cas Nuclease with a Bacteriophage-Encoded Anti-CRISPR Protein. MBio. 2017; 8:e01751-17.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29233895,\n\t\"PMC\": \"PMC5727412\",\n\t\"citation\": \"Pawluk A., Shah M., Mejdani M., Calmettes C., Moraes T.F., Davidson A.R., Maxwell K.L.. Disabling a Type I-E CRISPR\\u2013Cas Nuclease with a Bacteriophage-Encoded Anti-CRISPR Protein. MBio. 2017; 8:e01751-17.\"\n}"
+		},
+		{
+			"PMID": 32156733,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC7104187",
+			"citation": "Watters K.E., Shivram H., Fellmann C., Lew R.J., McMahon B., Doudna J.A.. Potent CRISPR\u2013Cas9 inhibitors from Staphylococcus genomes. Proc. Natl. Acad. Sci. U.S.A. 2020; 117:doi:10.1073/pnas.1917668117.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 32156733,\n\t\"PMC\": \"PMC7104187\",\n\t\"citation\": \"Watters K.E., Shivram H., Fellmann C., Lew R.J., McMahon B., Doudna J.A.. Potent CRISPR\\u2013Cas9 inhibitors from Staphylococcus genomes. Proc. Natl. Acad. Sci. U.S.A. 2020; 117:doi:10.1073/pnas.1917668117.\"\n}"
+		},
+		{
+			"PMID": 32325050,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1101/787200",
+			"date": "",
+			"PMC": "PMC7351598",
+			"citation": "Osuna B.A., Karambelkar S., Mahendra C., Christie K.A, Garcia B., Davidson A.R., Kleinstiver B.P., Kilcher S., Bondy-Denomy J.. Listeria phages induce Cas9 degradation to protect lysogenic genomes. 2019; bioRxiv doi:30 September 2019, preprint: not peer reviewed10.1101/787200.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 32325050,\n\t\"DOI\": \"10.1101/787200\",\n\t\"PMC\": \"PMC7351598\",\n\t\"citation\": \"Osuna B.A., Karambelkar S., Mahendra C., Christie K.A, Garcia B., Davidson A.R., Kleinstiver B.P., Kilcher S., Bondy-Denomy J.. Listeria phages induce Cas9 degradation to protect lysogenic genomes. 2019; bioRxiv doi:30 September 2019, preprint: not peer reviewed10.1101/787200.\"\n}"
+		},
+		{
+			"PMID": 30737174,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Uribe R.V., van\u00a0der\u00a0Helm E., Misiakou M.A., Lee S.W., Kol S., Sommer M.O.A.. Discovery and Characterization of Cas9 Inhibitors Disseminated across Seven Bacterial Phyla. Cell Host Microbe. 2019; 25:233\u2013241.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30737174,\n\t\"citation\": \"Uribe R.V., van\\u00a0der\\u00a0Helm E., Misiakou M.A., Lee S.W., Kol S., Sommer M.O.A.. Discovery and Characterization of Cas9 Inhibitors Disseminated across Seven Bacterial Phyla. Cell Host Microbe. 2019; 25:233\\u2013241.\"\n}"
+		},
+		{
+			"PMID": 31502535,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6739867",
+			"citation": "Forsberg K.J., Bhatt I. V, Schmidtke D.T., Javanmardi K., Dillard K.E., Stoddard B.L., Finkelstein I.J., Kaiser B.K., Malik H.S.. Functional metagenomics-guided discovery of potent Cas9 inhibitors in the human microbiome. Elife. 2019; 8:e46540.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 31502535,\n\t\"PMC\": \"PMC6739867\",\n\t\"citation\": \"Forsberg K.J., Bhatt I. V, Schmidtke D.T., Javanmardi K., Dillard K.E., Stoddard B.L., Finkelstein I.J., Kaiser B.K., Malik H.S.. Functional metagenomics-guided discovery of potent Cas9 inhibitors in the human microbiome. Elife. 2019; 8:e46540.\"\n}"
+		},
+		{
+			"PMID": 30514786,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6282205",
+			"citation": "Lee J., Mir A., Edraki A., Garcia B., Amrani N., Lou H.E., Gainetdinov I., Pawluk A., Ibraheim R., Gao X.D. et al. .. Potent Cas9 inhibition in bacterial and human cells by AcrIIC4 and AcrIIC5 anti-CRISPR proteins. mBio. 2018; 9:1\u201317.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30514786,\n\t\"PMC\": \"PMC6282205\",\n\t\"citation\": \"Lee J., Mir A., Edraki A., Garcia B., Amrani N., Lou H.E., Gainetdinov I., Pawluk A., Ibraheim R., Gao X.D. et al. .. Potent Cas9 inhibition in bacterial and human cells by AcrIIC4 and AcrIIC5 anti-CRISPR proteins. mBio. 2018; 9:1\\u201317.\"\n}"
+		},
+		{
+			"PMID": 26929301,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC4859606",
+			"citation": "Heussler G.E., O\u2019Toole G.A.. Friendly fire: Biological functions and consequences of chromosomal targeting by CRISPR-cas systems. J. Bacteriol. 2016; 198:1481\u20131486.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26929301,\n\t\"PMC\": \"PMC4859606\",\n\t\"citation\": \"Heussler G.E., O\\u2019Toole G.A.. Friendly fire: Biological functions and consequences of chromosomal targeting by CRISPR-cas systems. J. Bacteriol. 2016; 198:1481\\u20131486.\"\n}"
+		},
+		{
+			"PMID": 29062071,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Pawluk A., Davidson A.R., Maxwell K.L.. Anti-CRISPR: discovery, mechanism and function. Nat. Rev. Microbiol. 2018; 16:12\u201317.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29062071,\n\t\"citation\": \"Pawluk A., Davidson A.R., Maxwell K.L.. Anti-CRISPR: discovery, mechanism and function. Nat. Rev. Microbiol. 2018; 16:12\\u201317.\"\n}"
+		},
+		{
+			"PMID": 26416740,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC4935067",
+			"citation": "Bondy-Denomy J., Garcia B., Strum S., Du M., Rollins M.F., Hidalgo-Reyes Y., Wiedenheft B., Maxwell K.L., Davidson A.R.. Multiple mechanisms for CRISPR\u2013Cas inhibition by anti-CRISPR proteins. Nature. 2015; 526:136\u2013139.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26416740,\n\t\"PMC\": \"PMC4935067\",\n\t\"citation\": \"Bondy-Denomy J., Garcia B., Strum S., Du M., Rollins M.F., Hidalgo-Reyes Y., Wiedenheft B., Maxwell K.L., Davidson A.R.. Multiple mechanisms for CRISPR\\u2013Cas inhibition by anti-CRISPR proteins. Nature. 2015; 526:136\\u2013139.\"\n}"
+		},
+		{
+			"PMID": 26741979,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC4704812",
+			"citation": "Maxwell K.L. Phages fight back: inactivation of the CRISPR\u2013Cas bacterial immune system by anti-CRISPR proteins. PLoS Pathog. 2016; 12:e1005282.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26741979,\n\t\"PMC\": \"PMC4704812\",\n\t\"citation\": \"Maxwell K.L. Phages fight back: inactivation of the CRISPR\\u2013Cas bacterial immune system by anti-CRISPR proteins. PLoS Pathog. 2016; 12:e1005282.\"\n}"
+		},
+		{
+			"PMID": 30936531,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6449189",
+			"citation": "Knott G.J., Thornton B.W., Lobba M.J., Liu J., Al-Shayeb B., Watters K.E., Doudna J.A.. Broad-spectrum enzymatic inhibition of CRISPR\u2013Cas12a. Nat. Struct. Mol. Biol. 2019; 26:315\u2013321.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30936531,\n\t\"PMC\": \"PMC6449189\",\n\t\"citation\": \"Knott G.J., Thornton B.W., Lobba M.J., Liu J., Al-Shayeb B., Watters K.E., Doudna J.A.. Broad-spectrum enzymatic inhibition of CRISPR\\u2013Cas12a. Nat. Struct. Mol. Biol. 2019; 26:315\\u2013321.\"\n}"
+		},
+		{
+			"PMID": 30936526,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Dong L., Guan X., Li N., Zhang F., Zhu Y., Ren K., Yu L., Zhou F., Han Z., Gao N. et al. .. An anti-CRISPR protein disables type V Cas12a by acetylation. Nat. Struct. Mol. Biol. 2019; 26:308\u2013314.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30936526,\n\t\"citation\": \"Dong L., Guan X., Li N., Zhang F., Zhu Y., Ren K., Yu L., Zhou F., Han Z., Gao N. et al. .. An anti-CRISPR protein disables type V Cas12a by acetylation. Nat. Struct. Mol. Biol. 2019; 26:308\\u2013314.\"\n}"
+		},
+		{
+			"PMID": 31155345,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Zhang H., Li Z., Daczkowski C.M., Gabel C., Mesecar A.D., Chang L.. Structural basis for the inhibition of CRISPR\u2013Cas12a by anti-CRISPR proteins. Cell Host Microbe. 2019; 25:815\u2013826.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 31155345,\n\t\"citation\": \"Zhang H., Li Z., Daczkowski C.M., Gabel C., Mesecar A.D., Chang L.. Structural basis for the inhibition of CRISPR\\u2013Cas12a by anti-CRISPR proteins. Cell Host Microbe. 2019; 25:815\\u2013826.\"\n}"
+		},
+		{
+			"PMID": 31397669,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6711708",
+			"citation": "Knott G.J., Cress B.F., Liu J.-J., Thornton B.W., Lew R.J., Al-Shayeb B., Rosenberg D.J., Hammel M., Adler B.A., Lobba M.J. et al. .. Structural basis for AcrVA4 inhibition of specific CRISPR\u2013Cas12a. eLife. 2019; 8:e49110.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 31397669,\n\t\"PMC\": \"PMC6711708\",\n\t\"citation\": \"Knott G.J., Cress B.F., Liu J.-J., Thornton B.W., Lew R.J., Al-Shayeb B., Rosenberg D.J., Hammel M., Adler B.A., Lobba M.J. et al. .. Structural basis for AcrVA4 inhibition of specific CRISPR\\u2013Cas12a. eLife. 2019; 8:e49110.\"\n}"
+		},
+		{
+			"PMID": 29036676,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC5753274",
+			"citation": "Dong C., Hao G.F., Hua H.L., Liu S., Labena A.A., Chai G., Huang J., Rao N., Guo F.B.. Anti-CRISPRdb: a comprehensive online resource for anti-CRISPR proteins. Nucleic Acids Res. 2018; 46:D393\u2013D398.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29036676,\n\t\"PMC\": \"PMC5753274\",\n\t\"citation\": \"Dong C., Hao G.F., Hua H.L., Liu S., Labena A.A., Chai G., Huang J., Rao N., Guo F.B.. Anti-CRISPRdb: a comprehensive online resource for anti-CRISPR proteins. Nucleic Acids Res. 2018; 46:D393\\u2013D398.\"\n}"
+		},
+		{
+			"PMID": 26411473,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Walsh I., Pollastri G., Tosatto S.C.E.. Correct machine learning on protein sequences: A peer-reviewing perspective. Brief. Bioinformatics. 2016; 17:831\u2013840.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26411473,\n\t\"citation\": \"Walsh I., Pollastri G., Tosatto S.C.E.. Correct machine learning on protein sequences: A peer-reviewing perspective. Brief. Bioinformatics. 2016; 17:831\\u2013840.\"\n}"
+		},
+		{
+			"PMID": 10195279,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Rost B. Twilight zone of protein sequence alignments. Protein Eng. 1999; 12:85\u201394.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 10195279,\n\t\"citation\": \"Rost B. Twilight zone of protein sequence alignments. Protein Eng. 1999; 12:85\\u201394.\"\n}"
+		},
+		{
+			"PMID": 20053844,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC2828112",
+			"citation": "Huang Y., Niu B., Gao Y., Fu L., Li W.. CD-HIT Suite: a web server for clustering and comparing biological sequences. Bioinformatics. 2010; 26:680\u2013682.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 20053844,\n\t\"PMC\": \"PMC2828112\",\n\t\"citation\": \"Huang Y., Niu B., Gao Y., Fu L., Li W.. CD-HIT Suite: a web server for clustering and comparing biological sequences. Bioinformatics. 2010; 26:680\\u2013682.\"\n}"
+		},
+		{
+			"PMID": 31564454,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Bhoobalan-Chitty Y., Johansen T.B., Di\u00a0Cianni N., Peng X.. Inhibition of Type III CRISPR\u2013Cas immunity by an Archaeal virus encoded anti-CRISPR protein. Cell. 2019; 179:448\u2013458.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 31564454,\n\t\"citation\": \"Bhoobalan-Chitty Y., Johansen T.B., Di\\u00a0Cianni N., Peng X.. Inhibition of Type III CRISPR\\u2013Cas immunity by an Archaeal virus encoded anti-CRISPR protein. Cell. 2019; 179:448\\u2013458.\"\n}"
+		},
+		{
+			"PMID": 31021234,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Hwang S., Maxwell K.L.. Meet the anti-CRISPRs: widespread protein inhibitors of CRISPR\u2013Cas systems. CRISPR J. 2019; 2:23\u201330.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 31021234,\n\t\"citation\": \"Hwang S., Maxwell K.L.. Meet the anti-CRISPRs: widespread protein inhibitors of CRISPR\\u2013Cas systems. CRISPR J. 2019; 2:23\\u201330.\"\n}"
+		},
+		{
+			"PMID": 20377887,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC2868007",
+			"citation": "Saidi R., Maddouri M., Mephu\u00a0Nguifo E.. Protein sequences classification by means of feature extraction with substitution matrices. BMC Bioinformatics. 2010; 11:175.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 20377887,\n\t\"PMC\": \"PMC2868007\",\n\t\"citation\": \"Saidi R., Maddouri M., Mephu\\u00a0Nguifo E.. Protein sequences classification by means of feature extraction with substitution matrices. BMC Bioinformatics. 2010; 11:175.\"\n}"
+		},
+		{
+			"PMID": 17360525,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC1838603",
+			"citation": "Shen J., Zhang J., Luo X., Zhu W., Yu K., Chen K., Li Y., Jiang H.. Predicting protein-protein interactions based only on sequences information. Proc. Natl. Acad. Sci. U.S.A. 2007; 104:4337\u20134341.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 17360525,\n\t\"PMC\": \"PMC1838603\",\n\t\"citation\": \"Shen J., Zhang J., Luo X., Zhu W., Yu K., Chen K., Li Y., Jiang H.. Predicting protein-protein interactions based only on sequences information. Proc. Natl. Acad. Sci. U.S.A. 2007; 104:4337\\u20134341.\"\n}"
+		},
+		{
+			"PMID": 11928508,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Leslie C., Eskin E., Noble W.S.. The spectrum kernel: a string kernel for SVM protein classification. Proc. Pacific Symp. Biocomputing. 2002; 564\u2013575.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 11928508,\n\t\"citation\": \"Leslie C., Eskin E., Noble W.S.. The spectrum kernel: a string kernel for SVM protein classification. Proc. Pacific Symp. Biocomputing. 2002; 564\\u2013575.\"\n}"
+		},
+		{
+			"PMID": 20221922,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Ben-Hur A., Weston J.. A user's guide to support vector machines. Methods Mol. Biol. 2010; 609:223\u2013239.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 20221922,\n\t\"citation\": \"Ben-Hur A., Weston J.. A user's guide to support vector machines. Methods Mol. Biol. 2010; 609:223\\u2013239.\"\n}"
+		},
+		{
+			"PMID": -819483,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Chen T., Guestrin C.. XGBoost: a scalable tree boosting system. Proc. of the 22nd ACM SIGKDD Int. Conf. 2016; 785\u2013794.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": -819483,\n\t\"citation\": \"Chen T., Guestrin C.. XGBoost: a scalable tree boosting system. Proc. of the 22nd ACM SIGKDD Int. Conf. 2016; 785\\u2013794.\"\n}"
+		},
+		{
+			"PMID": 30309933,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Koonin E. V., Makarova K.S.. Anti-CRISPRs on the march. Science. 2018; 362:156\u2013157.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30309933,\n\t\"citation\": \"Koonin E. V., Makarova K.S.. Anti-CRISPRs on the march. Science. 2018; 362:156\\u2013157.\"\n}"
+		},
+		{
+			"PMID": 27141966,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC4987931",
+			"citation": "Arndt D., Grant J.R., Marcu A., Sajed T., Pon A., Liang Y., Wishart D.S.. PHASTER: a better, faster version of the PHAST phage search tool. Nucleic Acids Res. 2016; 44:W16\u2013W21.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 27141966,\n\t\"PMC\": \"PMC4987931\",\n\t\"citation\": \"Arndt D., Grant J.R., Marcu A., Sajed T., Pon A., Liang Y., Wishart D.S.. PHASTER: a better, faster version of the PHAST phage search tool. Nucleic Acids Res. 2016; 44:W16\\u2013W21.\"\n}"
+		},
+		{
+			"PMID": 2231712,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Altschul S.F., Gish W., Miller W., Myers E.W., Lipman D.J.. Basic local alignment search tool. J. Mol. Biol. 1990; 215:403\u2013410.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 2231712,\n\t\"citation\": \"Altschul S.F., Gish W., Miller W., Myers E.W., Lipman D.J.. Basic local alignment search tool. J. Mol. Biol. 1990; 215:403\\u2013410.\"\n}"
+		},
+		{
+			"PMID": 27669025,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC5576363",
+			"citation": "East-Seletsky A., O\u2019Connell M.R., Knight S.C., Burstein D., Cate J.H.D., Tjian R., Doudna J.A.. Two distinct RNase activities of CRISPR-C2c2 enable guide-RNA processing and RNA detection. Nature. 2016; 538:270\u2013273.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 27669025,\n\t\"PMC\": \"PMC5576363\",\n\t\"citation\": \"East-Seletsky A., O\\u2019Connell M.R., Knight S.C., Burstein D., Cate J.H.D., Tjian R., Doudna J.A.. Two distinct RNase activities of CRISPR-C2c2 enable guide-RNA processing and RNA detection. Nature. 2016; 538:270\\u2013273.\"\n}"
+		},
+		{
+			"PMID": 30595438,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6480404",
+			"citation": "Jiang F., Liu J.J., Osuna B.A., Xu M., Berry J.D., Rauch B.J., Nogales E., Bondy-Denomy J., Doudna J.A.. Temperature-responsive competitive inhibition of CRISPR\u2013Cas9. Mol. Cell. 2019; 73:601\u2013610.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30595438,\n\t\"PMC\": \"PMC6480404\",\n\t\"citation\": \"Jiang F., Liu J.J., Osuna B.A., Xu M., Berry J.D., Rauch B.J., Nogales E., Bondy-Denomy J., Doudna J.A.. Temperature-responsive competitive inhibition of CRISPR\\u2013Cas9. Mol. Cell. 2019; 73:601\\u2013610.\"\n}"
+		},
+		{
+			"PMID": 30209391,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6221200",
+			"citation": "Light S.H., Su L., Rivera-Lugo R., Cornejo J.A., Louie A., Iavarone A.T., Ajo-Franklin C.M., Portnoy D.A.. A flavin-based extracellular electron transfer mechanism in diverse Gram-positive bacteria. Nature. 2018; 562:140\u2013144.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30209391,\n\t\"PMC\": \"PMC6221200\",\n\t\"citation\": \"Light S.H., Su L., Rivera-Lugo R., Cornejo J.A., Louie A., Iavarone A.T., Ajo-Franklin C.M., Portnoy D.A.. A flavin-based extracellular electron transfer mechanism in diverse Gram-positive bacteria. Nature. 2018; 562:140\\u2013144.\"\n}"
+		},
+		{
+			"PMID": 31392299,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6600654",
+			"citation": "Zhang F., Song G., Tian Y.. Anti\u2010CRISPRs: the natural inhibitors for CRISPR\u2010Cas systems. Anim. Models Exp. Med. 2019; 2:69\u201375.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 31392299,\n\t\"PMC\": \"PMC6600654\",\n\t\"citation\": \"Zhang F., Song G., Tian Y.. Anti\\u2010CRISPRs: the natural inhibitors for CRISPR\\u2010Cas systems. Anim. Models Exp. Med. 2019; 2:69\\u201375.\"\n}"
+		},
+		{
+			"PMID": 31021273,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Bondy-Denomy J., Davidson A.R., Doudna J.A., C.fineran Peter, Maxwell K.L., Moineau S., Peng X., Sontheimer E.J., Wiedenheft B.. A unified resource for tracking anti-CRISPR names. CRISPR J. 2018; 1:304\u2013305.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 31021273,\n\t\"citation\": \"Bondy-Denomy J., Davidson A.R., Doudna J.A., C.fineran Peter, Maxwell K.L., Moineau S., Peng X., Sontheimer E.J., Wiedenheft B.. A unified resource for tracking anti-CRISPR names. CRISPR J. 2018; 1:304\\u2013305.\"\n}"
+		},
+		{
+			"PMID": 29182776,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC5758886",
+			"citation": "Ka D., An S.Y., Suh J.Y., Bae E.. Crystal structure of an anti-CRISPR protein, AcrIIA1. Nucleic Acids Res. 2018; 46:485\u2013492.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29182776,\n\t\"PMC\": \"PMC5758886\",\n\t\"citation\": \"Ka D., An S.Y., Suh J.Y., Bae E.. Crystal structure of an anti-CRISPR protein, AcrIIA1. Nucleic Acids Res. 2018; 46:485\\u2013492.\"\n}"
+		},
+		{
+			"PMID": 29554913,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC5859409",
+			"citation": "Zhu Y., Zhang F., Huang Z.. Structural insights into the inactivation of CRISPR\u2013Cas systems by diverse anti-CRISPR proteins. BMC Biol. 2018; 16:32.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29554913,\n\t\"PMC\": \"PMC5859409\",\n\t\"citation\": \"Zhu Y., Zhang F., Huang Z.. Structural insights into the inactivation of CRISPR\\u2013Cas systems by diverse anti-CRISPR proteins. BMC Biol. 2018; 16:32.\"\n}"
+		},
+		{
+			"PMID": 17374164,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC1847686",
+			"citation": "Al-Shahib A., Breitling R., Gilbert D.R.. Predicting protein function by machine learning on amino acid sequences - a critical evaluation. BMC Genomics. 2007; 8:78.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 17374164,\n\t\"PMC\": \"PMC1847686\",\n\t\"citation\": \"Al-Shahib A., Breitling R., Gilbert D.R.. Predicting protein function by machine learning on amino acid sequences - a critical evaluation. BMC Genomics. 2007; 8:78.\"\n}"
+		},
+		{
+			"PMID": 22962461,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC3436843",
+			"citation": "Minhas F.U.A.A., Ben-Hur A.. Multiple instance learning of Calmodulin binding sites. Bioinformatics. 2012; 28:416\u2013422.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 22962461,\n\t\"PMC\": \"PMC3436843\",\n\t\"citation\": \"Minhas F.U.A.A., Ben-Hur A.. Multiple instance learning of Calmodulin binding sites. Bioinformatics. 2012; 28:416\\u2013422.\"\n}"
+		},
+		{
+			"PMID": -201733,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Lundberg S.M., Lee S.-I.. A unified approach to interpreting model predictions. Adv. Neural Inform. Process. Syst. 2017; 30:4765\u20134774.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": -201733,\n\t\"citation\": \"Lundberg S.M., Lee S.-I.. A unified approach to interpreting model predictions. Adv. Neural Inform. Process. Syst. 2017; 30:4765\\u20134774.\"\n}"
+		},
+		{
+			"PMID": 25830891,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC4393360",
+			"citation": "Ran F.A., Cong L., Yan W.X., Scott D.A., Gootenberg J.S., Kriz A.J., Zetsche B., Shalem O., Wu X., Makarova K.S. et al. .. In vivo genome editing using Staphylococcus aureus Cas9. Nature. 2015; 520:186\u2013191.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25830891,\n\t\"PMC\": \"PMC4393360\",\n\t\"citation\": \"Ran F.A., Cong L., Yan W.X., Scott D.A., Gootenberg J.S., Kriz A.J., Zetsche B., Shalem O., Wu X., Makarova K.S. et al. .. In vivo genome editing using Staphylococcus aureus Cas9. Nature. 2015; 520:186\\u2013191.\"\n}"
+		},
+		{
+			"PMID": 30348755,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6298560",
+			"citation": "Yourik P., Fuchs R.T., Mabuchi M., Curcuru J.L., Robb G.B.. Staphylococcus aureus Cas9 is a multiple-turnover enzyme. RNA. 2019; 25:35\u201344.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30348755,\n\t\"PMC\": \"PMC6298560\",\n\t\"citation\": \"Yourik P., Fuchs R.T., Mabuchi M., Curcuru J.L., Robb G.B.. Staphylococcus aureus Cas9 is a multiple-turnover enzyme. RNA. 2019; 25:35\\u201344.\"\n}"
+		},
+		{
+			"PMID": 31722192,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC6910239",
+			"citation": "Garcia B., Lee J., Edraki A., Hidalgo-Reyes Y., Erwood S., Mir A., Trost C.N., Seroussi U., Stanley S.Y., Cohn R.D. et al. .. Anti-CRISPR AcrIIA5 potently inhibits all Cas9 homologs used for genome editing. Cell Rep. 2019; 29:1739\u20131746.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 31722192,\n\t\"PMC\": \"PMC6910239\",\n\t\"citation\": \"Garcia B., Lee J., Edraki A., Hidalgo-Reyes Y., Erwood S., Mir A., Trost C.N., Seroussi U., Stanley S.Y., Cohn R.D. et al. .. Anti-CRISPR AcrIIA5 potently inhibits all Cas9 homologs used for genome editing. Cell Rep. 2019; 29:1739\\u20131746.\"\n}"
+		},
+		{
+			"PMID": 28602637,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "PMC5595222",
+			"citation": "Yang H., Patel D.J.. Inhibition mechanism of an anti-CRISPR suppressor AcrIIA4 targeting SpyCas9. Mol. Cell. 2017; 67:117\u2013127.",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28602637,\n\t\"PMC\": \"PMC5595222\",\n\t\"citation\": \"Yang H., Patel D.J.. Inhibition mechanism of an anti-CRISPR suppressor AcrIIA4 targeting SpyCas9. Mol. Cell. 2017; 67:117\\u2013127.\"\n}"
+		},
+		{
+			"PMID": 25079318,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1038/nature13579",
+			"date": "",
+			"PMC": "PMC4176945",
+			"citation": "Anders C., Niewoehner O., Duerst A., Jinek M. (2014). Structural basis of PAM-dependent target DNA recognition by the Cas9 endonuclease. Nature 513 569\u2013573. 10.1038/nature13579",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25079318,\n\t\"DOI\": \"10.1038/nature13579\",\n\t\"PMC\": \"PMC4176945\",\n\t\"citation\": \"Anders C., Niewoehner O., Duerst A., Jinek M. (2014). Structural basis of PAM-dependent target DNA recognition by the Cas9 endonuclease. Nature 513 569\\u2013573. 10.1038/nature13579\"\n}"
+		},
+		{
+			"PMID": 23761437,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1093/nar/gkt520",
+			"date": "",
+			"PMC": "PMC3753641",
+			"citation": "Bikard D., Jiang W., Samai P., Hochschild A., Zhang F., Marraffini L. A. (2013). Programmable repression and activation of bacterial gene expression using an engineered CRISPR-Cas system. Nucleic Acids Res. 41 7429\u20137437. 10.1093/nar/gkt520",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 23761437,\n\t\"DOI\": \"10.1093/nar/gkt520\",\n\t\"PMC\": \"PMC3753641\",\n\t\"citation\": \"Bikard D., Jiang W., Samai P., Hochschild A., Zhang F., Marraffini L. A. (2013). Programmable repression and activation of bacterial gene expression using an engineered CRISPR-Cas system. Nucleic Acids Res. 41 7429\\u20137437. 10.1093/nar/gkt520\"\n}"
+		},
+		{
+			"PMID": 28616968,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1021/acssynbio.6b00374",
+			"date": "",
+			"PMC": "",
+			"citation": "Cao Y., Li X., Li F., Song H. (2017). CRISPRi-sRNA: transcriptional-translational regulation of extracellular electron transfer in Shewanella oneidensis. ACS Synth. Biol. 6 1679\u20131690. 10.1021/acssynbio.6b00374",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28616968,\n\t\"DOI\": \"10.1021/acssynbio.6b00374\",\n\t\"citation\": \"Cao Y., Li X., Li F., Song H. (2017). CRISPRi-sRNA: transcriptional-translational regulation of extracellular electron transfer in Shewanella oneidensis. ACS Synth. Biol. 6 1679\\u20131690. 10.1021/acssynbio.6b00374\"\n}"
+		},
+		{
+			"PMID": 28095853,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1186/s12934-016-0623-3",
+			"date": "",
+			"PMC": "PMC5240198",
+			"citation": "Cress B. F., Leitz Q. D., Kim D. C., Amore T. D., Suzuki J. Y., Linhardt R. J., et al. (2017). CRISPRi-mediated metabolic engineering of E. coli for O-methylated anthocyanin production. Microb. Cell Fact. 16:10. 10.1186/s12934-016-0623-3",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28095853,\n\t\"DOI\": \"10.1186/s12934-016-0623-3\",\n\t\"PMC\": \"PMC5240198\",\n\t\"citation\": \"Cress B. F., Leitz Q. D., Kim D. C., Amore T. D., Suzuki J. Y., Linhardt R. J., et al. (2017). CRISPRi-mediated metabolic engineering of E. coli for O-methylated anthocyanin production. Microb. Cell Fact. 16:10. 10.1186/s12934-016-0623-3\"\n}"
+		},
+		{
+			"PMID": 28808686,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1126/sciadv.aao0027",
+			"date": "",
+			"PMC": "PMC5547770",
+			"citation": "Dagdas Y. S., Chen J. S., Sternberg S. H., Doudna J. A., Yildiz A. (2017). A conformational checkpoint between DNA binding and cleavage by CRISPR-Cas9. Sci. Adv. 3:eaao0027. 10.1126/sciadv.aao0027",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28808686,\n\t\"DOI\": \"10.1126/sciadv.aao0027\",\n\t\"PMC\": \"PMC5547770\",\n\t\"citation\": \"Dagdas Y. S., Chen J. S., Sternberg S. H., Doudna J. A., Yildiz A. (2017). A conformational checkpoint between DNA binding and cleavage by CRISPR-Cas9. Sci. Adv. 3:eaao0027. 10.1126/sciadv.aao0027\"\n}"
+		},
+		{
+			"PMID": 10829079,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1073/pnas.120163297",
+			"date": "",
+			"PMC": "PMC18686",
+			"citation": "Datsenko K. A., Wanner B. L. (2000). One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products. Proc. Natl. Acad. Sci. U.S.A. 97 6640\u20136645. 10.1073/pnas.120163297",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 10829079,\n\t\"DOI\": \"10.1073/pnas.120163297\",\n\t\"PMC\": \"PMC18686\",\n\t\"citation\": \"Datsenko K. A., Wanner B. L. (2000). One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products. Proc. Natl. Acad. Sci. U.S.A. 97 6640\\u20136645. 10.1073/pnas.120163297\"\n}"
+		},
+		{
+			"PMID": 25981485,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1007/978-1-4939-2687-9_23",
+			"date": "",
+			"PMC": "PMC4845913",
+			"citation": "Hawkins J. S., Wong S., Peters J. M., Almeida R., Qi L. S. (2015). Targeted transcriptional repression in bacteria using CRISPR interference (CRISPRi). Methods Mol. Biol. 1311 349\u2013362. 10.1007/978-1-4939-2687-9_23",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25981485,\n\t\"DOI\": \"10.1007/978-1-4939-2687-9_23\",\n\t\"PMC\": \"PMC4845913\",\n\t\"citation\": \"Hawkins J. S., Wong S., Peters J. M., Almeida R., Qi L. S. (2015). Targeted transcriptional repression in bacteria using CRISPR interference (CRISPRi). Methods Mol. Biol. 1311 349\\u2013362. 10.1007/978-1-4939-2687-9_23\"\n}"
+		},
+		{
+			"PMID": 23563322,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1016/j.ymben.2013.03.004",
+			"date": "",
+			"PMC": "",
+			"citation": "Kim H. J., Hou B. K., Lee S. G., Kim J. S., Lee D. W., Lee S. J. (2013). Genome-wide analysis of redox reactions reveals metabolic engineering targets for D-lactate overproduction in Escherichia coli. Metab. Eng. 18 44\u201352. 10.1016/j.ymben.2013.03.004",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 23563322,\n\t\"DOI\": \"10.1016/j.ymben.2013.03.004\",\n\t\"citation\": \"Kim H. J., Hou B. K., Lee S. G., Kim J. S., Lee D. W., Lee S. J. (2013). Genome-wide analysis of redox reactions reveals metabolic engineering targets for D-lactate overproduction in Escherichia coli. Metab. Eng. 18 44\\u201352. 10.1016/j.ymben.2013.03.004\"\n}"
+		},
+		{
+			"PMID": 29100516,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1186/s12934-017-0802-x",
+			"date": "",
+			"PMC": "PMC5670510",
+			"citation": "Kim S. K., Seong W., Han G. H., Lee D. H., Lee S. G. (2017). CRISPR interference-guided multiplex repression of endogenous competing pathway genes for redirecting metabolic flux in Escherichia coli. Microb. Cell Fact. 16:188. 10.1186/s12934-017-0802-x",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29100516,\n\t\"DOI\": \"10.1186/s12934-017-0802-x\",\n\t\"PMC\": \"PMC5670510\",\n\t\"citation\": \"Kim S. K., Seong W., Han G. H., Lee D. H., Lee S. G. (2017). CRISPR interference-guided multiplex repression of endogenous competing pathway genes for redirecting metabolic flux in Escherichia coli. Microb. Cell Fact. 16:188. 10.1186/s12934-017-0802-x\"\n}"
+		},
+		{
+			"PMID": 24136345,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1038/nprot.2013.132",
+			"date": "",
+			"PMC": "PMC3922765",
+			"citation": "Larson M. H., Gilbert L. A., Wang X., Lim W. A., Weissman J. S., Qi L. S. (2013). CRISPR interference (CRISPRi) for sequence-specific control of gene expression. Nat. Protoc. 8 2180\u20132196. 10.1038/nprot.2013.132",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 24136345,\n\t\"DOI\": \"10.1038/nprot.2013.132\",\n\t\"PMC\": \"PMC3922765\",\n\t\"citation\": \"Larson M. H., Gilbert L. A., Wang X., Lim W. A., Weissman J. S., Qi L. S. (2013). CRISPR interference (CRISPRi) for sequence-specific control of gene expression. Nat. Protoc. 8 2180\\u20132196. 10.1038/nprot.2013.132\"\n}"
+		},
+		{
+			"PMID": 19887636,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1073/pnas.0910586106",
+			"date": "",
+			"PMC": "PMC2780772",
+			"citation": "Lee S. J., Trostel A., Le P., Harinarayanan R., Fitzgerald P. C., Adhya S. (2009). Cellular stress created by intermediary metabolite imbalances. Proc. Natl. Acad. Sci. U.S.A. 106 19515\u201319520. 10.1073/pnas.0910586106",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 19887636,\n\t\"DOI\": \"10.1073/pnas.0910586106\",\n\t\"PMC\": \"PMC2780772\",\n\t\"citation\": \"Lee S. J., Trostel A., Le P., Harinarayanan R., Fitzgerald P. C., Adhya S. (2009). Cellular stress created by intermediary metabolite imbalances. Proc. Natl. Acad. Sci. U.S.A. 106 19515\\u201319520. 10.1073/pnas.0910586106\"\n}"
+		},
+		{
+			"PMID": 25543084,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1016/j.jmb.2014.12.010",
+			"date": "",
+			"PMC": "PMC4401089",
+			"citation": "Lewis D. E. A., Le P., Adhya S. (2015). Differential role of base pairs on gal promoters strength. J. Mol. Biol. 427 792\u2013806. 10.1016/j.jmb.2014.12.010",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25543084,\n\t\"DOI\": \"10.1016/j.jmb.2014.12.010\",\n\t\"PMC\": \"PMC4401089\",\n\t\"citation\": \"Lewis D. E. A., Le P., Adhya S. (2015). Differential role of base pairs on gal promoters strength. J. Mol. Biol. 427 792\\u2013806. 10.1016/j.jmb.2014.12.010\"\n}"
+		},
+		{
+			"PMID": 20125085,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1038/nrg2749",
+			"date": "",
+			"PMC": "PMC2928866",
+			"citation": "Marraffini L. A., Sontheimer E. J. (2010a). CRISPR interference: RNA-directed adaptive immunity in bacteria and archaea. Nat. Rev. Genet. 11 181\u2013190. 10.1038/nrg2749",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 20125085,\n\t\"DOI\": \"10.1038/nrg2749\",\n\t\"PMC\": \"PMC2928866\",\n\t\"citation\": \"Marraffini L. A., Sontheimer E. J. (2010a). CRISPR interference: RNA-directed adaptive immunity in bacteria and archaea. Nat. Rev. Genet. 11 181\\u2013190. 10.1038/nrg2749\"\n}"
+		},
+		{
+			"PMID": 20072129,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1038/nature08703",
+			"date": "",
+			"PMC": "PMC2813891",
+			"citation": "Marraffini L. A., Sontheimer E. J. (2010b). Self versus non-self discrimination during CRISPR RNA-directed immunity. Nature 463 568\u2013571. 10.1038/nature08703",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 20072129,\n\t\"DOI\": \"10.1038/nature08703\",\n\t\"PMC\": \"PMC2813891\",\n\t\"citation\": \"Marraffini L. A., Sontheimer E. J. (2010b). Self versus non-self discrimination during CRISPR RNA-directed immunity. Nature 463 568\\u2013571. 10.1038/nature08703\"\n}"
+		},
+		{
+			"PMID": 19246744,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1099/mic.0.023960-0",
+			"date": "",
+			"PMC": "",
+			"citation": "Mojica F. J., Diez-Villasenor C., Garcia-Martinez J., Almendros C. (2009). Short motif sequences determine the targets of the prokaryotic CRISPR defence system. Microbiology 155 733\u2013740. 10.1099/mic.0.023960-0",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 19246744,\n\t\"DOI\": \"10.1099/mic.0.023960-0\",\n\t\"citation\": \"Mojica F. J., Diez-Villasenor C., Garcia-Martinez J., Almendros C. (2009). Short motif sequences determine the targets of the prokaryotic CRISPR defence system. Microbiology 155 733\\u2013740. 10.1099/mic.0.023960-0\"\n}"
+		},
+		{
+			"PMID": 15791728,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1007/s00239-004-0046-3",
+			"date": "",
+			"PMC": "",
+			"citation": "Mojica F. J., Diez-Villasenor C., Garcia-Martinez J., Soria E. (2005). Intervening sequences of regularly spaced prokaryotic repeats derive from foreign genetic elements. J. Mol. Evol. 60 174\u2013182. 10.1007/s00239-004-0046-3",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 15791728,\n\t\"DOI\": \"10.1007/s00239-004-0046-3\",\n\t\"citation\": \"Mojica F. J., Diez-Villasenor C., Garcia-Martinez J., Soria E. (2005). Intervening sequences of regularly spaced prokaryotic repeats derive from foreign genetic elements. J. Mol. Evol. 60 174\\u2013182. 10.1007/s00239-004-0046-3\"\n}"
+		},
+		{
+			"PMID": 25274302,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1038/nature13769",
+			"date": "",
+			"PMC": "PMC4268322",
+			"citation": "O\u2019connell M. R., Oakes B. L., Sternberg S. H., East-Seletsky A., Kaplan M., Doudna J. A. (2014). Programmable RNA recognition and cleavage by CRISPR/Cas9. Nature 516 263\u2013266. 10.1038/nature13769",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25274302,\n\t\"DOI\": \"10.1038/nature13769\",\n\t\"PMC\": \"PMC4268322\",\n\t\"citation\": \"O\\u2019connell M. R., Oakes B. L., Sternberg S. H., East-Seletsky A., Kaplan M., Doudna J. A. (2014). Programmable RNA recognition and cleavage by CRISPR/Cas9. Nature 516 263\\u2013266. 10.1038/nature13769\"\n}"
+		},
+		{
+			"PMID": 15758212,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1099/mic.0.27437-0",
+			"date": "",
+			"PMC": "",
+			"citation": "Pourcel C., Salvignol G., Vergnaud G. (2005). CRISPR elements in Yersinia pestis acquire new repeats by preferential uptake of bacteriophage DNA, and provide additional tools for evolutionary studies. Microbiology 151 653\u2013663. 10.1099/mic.0.27437-0",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 15758212,\n\t\"DOI\": \"10.1099/mic.0.27437-0\",\n\t\"citation\": \"Pourcel C., Salvignol G., Vergnaud G. (2005). CRISPR elements in Yersinia pestis acquire new repeats by preferential uptake of bacteriophage DNA, and provide additional tools for evolutionary studies. Microbiology 151 653\\u2013663. 10.1099/mic.0.27437-0\"\n}"
+		},
+		{
+			"PMID": 23452860,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1016/j.cell.2013.02.022",
+			"date": "",
+			"PMC": "PMC3664290",
+			"citation": "Qi L. S., Larson M. H., Gilbert L. A., Doudna J. A., Weissman J. S., Arkin A. P. (2013). Repurposing CRISPR as an RNA-guided platform for sequence-specific control of gene expression. Cell 152 1173\u20131183. 10.1016/j.cell.2013.02.022",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 23452860,\n\t\"DOI\": \"10.1016/j.cell.2013.02.022\",\n\t\"PMC\": \"PMC3664290\",\n\t\"citation\": \"Qi L. S., Larson M. H., Gilbert L. A., Doudna J. A., Weissman J. S., Arkin A. P. (2013). Repurposing CRISPR as an RNA-guided platform for sequence-specific control of gene expression. Cell 152 1173\\u20131183. 10.1016/j.cell.2013.02.022\"\n}"
+		},
+		{
+			"PMID": 29767711,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1093/femsle/fny127",
+			"date": "",
+			"PMC": "",
+			"citation": "Qiu H., Gong J., Butaye P., Lu G., Huang K., Zhu G., et al. (2018). CRISPR/Cas9/sgRNA-mediated targeted gene modification confirms the cause-effect relationship between gyrA mutation and quinolone resistance in Escherichia coli. FEMS Microbiol. Lett. 365:fny127. 10.1093/femsle/fny127",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29767711,\n\t\"DOI\": \"10.1093/femsle/fny127\",\n\t\"citation\": \"Qiu H., Gong J., Butaye P., Lu G., Huang K., Zhu G., et al. (2018). CRISPR/Cas9/sgRNA-mediated targeted gene modification confirms the cause-effect relationship between gyrA mutation and quinolone resistance in Escherichia coli. FEMS Microbiol. Lett. 365:fny127. 10.1093/femsle/fny127\"\n}"
+		},
+		{
+			"PMID": 28858701,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1016/j.mib.2017.08.002",
+			"date": "",
+			"PMC": "",
+			"citation": "Quebatte M., Dehio C. (2017). Systems-level interference strategies to decipher host factors involved in bacterial pathogen interaction: from RNAi to CRISPRi. Curr. Opin. Microbiol. 39 34\u201341. 10.1016/j.mib.2017.08.002",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28858701,\n\t\"DOI\": \"10.1016/j.mib.2017.08.002\",\n\t\"citation\": \"Quebatte M., Dehio C. (2017). Systems-level interference strategies to decipher host factors involved in bacterial pathogen interaction: from RNAi to CRISPRi. Curr. Opin. Microbiol. 39 34\\u201341. 10.1016/j.mib.2017.08.002\"\n}"
+		},
+		{
+			"PMID": 25868999,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1016/j.biochi.2015.03.025",
+			"date": "",
+			"PMC": "",
+			"citation": "Rath D., Amlinger L., Rath A., Lundgren M. (2015). The CRISPR-Cas immune system: biology, mechanisms and applications. Biochimie 117 119\u2013128. 10.1016/j.biochi.2015.03.025",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25868999,\n\t\"DOI\": \"10.1016/j.biochi.2015.03.025\",\n\t\"citation\": \"Rath D., Amlinger L., Rath A., Lundgren M. (2015). The CRISPR-Cas immune system: biology, mechanisms and applications. Biochimie 117 119\\u2013128. 10.1016/j.biochi.2015.03.025\"\n}"
+		},
+		{
+			"PMID": 29958882,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1016/j.jmb.2018.06.037",
+			"date": "",
+			"PMC": "",
+			"citation": "Xu X., Qi L. S. (2019). A CRISPR-dCas toolbox for genetic engineering and synthetic biology. J. Mol. Biol. 431 34\u201347. 10.1016/j.jmb.2018.06.037",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29958882,\n\t\"DOI\": \"10.1016/j.jmb.2018.06.037\",\n\t\"citation\": \"Xu X., Qi L. S. (2019). A CRISPR-dCas toolbox for genetic engineering and synthetic biology. J. Mol. Biol. 431 34\\u201347. 10.1016/j.jmb.2018.06.037\"\n}"
+		},
+		{
+			"PMID": 24956376,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "10.1038/srep05405",
+			"date": "",
+			"PMC": "PMC4066725",
+			"citation": "Zhang Y., Ge X., Yang F., Zhang L., Zheng J., Tan X., et al. (2014a). Comparison of non-canonical PAMs for CRISPR/Cas9-mediated DNA cleavage in human cells. Sci. Rep. 4:5405. 10.1038/srep05405",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 24956376,\n\t\"DOI\": \"10.1038/srep05405\",\n\t\"PMC\": \"PMC4066725\",\n\t\"citation\": \"Zhang Y., Ge X., Yang F., Zhang L., Zheng J., Tan X., et al. (2014a). Comparison of non-canonical PAMs for CRISPR/Cas9-mediated DNA cleavage in human cells. Sci. Rep. 4:5405. 10.1038/srep05405\"\n}"
+		},
+		{
+			"PMID": 27401123,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Trends Microbiol. 2016 Oct;24(10):811-820",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 27401123,\n\t\"citation\": \"Trends Microbiol. 2016 Oct;24(10):811-820\"\n}"
+		},
+		{
+			"PMID": 26921872,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Stem Cell Res. 2016 Mar;16(2):377-86",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26921872,\n\t\"citation\": \"Stem Cell Res. 2016 Mar;16(2):377-86\"\n}"
+		},
+		{
+			"PMID": 26730810,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Mol Ther Nucleic Acids. 2016 Jan 05;5:e273",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26730810,\n\t\"citation\": \"Mol Ther Nucleic Acids. 2016 Jan 05;5:e273\"\n}"
+		},
+		{
+			"PMID": 1584761,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Proc Natl Acad Sci U S A. 1992 May 15;89(10):4275-9",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 1584761,\n\t\"citation\": \"Proc Natl Acad Sci U S A. 1992 May 15;89(10):4275-9\"\n}"
+		},
+		{
+			"PMID": 10954606,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nucleic Acids Res. 2000 Sep 1;28(17):3361-9",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 10954606,\n\t\"citation\": \"Nucleic Acids Res. 2000 Sep 1;28(17):3361-9\"\n}"
+		},
+		{
+			"PMID": 25456834,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Stem Cell. 2014 Dec 4;15(6):707-19",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25456834,\n\t\"citation\": \"Cell Stem Cell. 2014 Dec 4;15(6):707-19\"\n}"
+		},
+		{
+			"PMID": 29730419,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Calcium. 2018 Jul;73:104-111",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29730419,\n\t\"citation\": \"Cell Calcium. 2018 Jul;73:104-111\"\n}"
+		},
+		{
+			"PMID": 25069490,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Rev Genet. 2014 Sep;15(9):625-39",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25069490,\n\t\"citation\": \"Nat Rev Genet. 2014 Sep;15(9):625-39\"\n}"
+		},
+		{
+			"PMID": 24388173,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Stem Cell. 2014 Jan 2;14(1):13-26",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 24388173,\n\t\"citation\": \"Cell Stem Cell. 2014 Jan 2;14(1):13-26\"\n}"
+		},
+		{
+			"PMID": 31178256,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Mol Genet Metab. 2019 Jun;127(2):158-165",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 31178256,\n\t\"citation\": \"Mol Genet Metab. 2019 Jun;127(2):158-165\"\n}"
+		},
+		{
+			"PMID": 21828278,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Genetics. 2011 Aug;188(4):773-82",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 21828278,\n\t\"citation\": \"Genetics. 2011 Aug;188(4):773-82\"\n}"
+		},
+		{
+			"PMID": 27606440,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Biotechnol. 2016 Sep 08;34(9):933-941",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 27606440,\n\t\"citation\": \"Nat Biotechnol. 2016 Sep 08;34(9):933-941\"\n}"
+		},
+		{
+			"PMID": 26189696,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "J Biotechnol. 2015 Oct 10;211:56-65",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26189696,\n\t\"citation\": \"J Biotechnol. 2015 Oct 10;211:56-65\"\n}"
+		},
+		{
+			"PMID": 30849442,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Drug Discov Today. 2019 Apr;24(4):955-970",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30849442,\n\t\"citation\": \"Drug Discov Today. 2019 Apr;24(4):955-970\"\n}"
+		},
+		{
+			"PMID": 28965766,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Stem Cell. 2017 Oct 5;21(4):472-488.e10",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28965766,\n\t\"citation\": \"Cell Stem Cell. 2017 Oct 5;21(4):472-488.e10\"\n}"
+		},
+		{
+			"PMID": 24459397,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "J Pharm Bioallied Sci. 2014 Jan;6(1):2-9",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 24459397,\n\t\"citation\": \"J Pharm Bioallied Sci. 2014 Jan;6(1):2-9\"\n}"
+		},
+		{
+			"PMID": 23746976,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Stem Cell. 2013 Jun 6;12(6):669-77",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 23746976,\n\t\"citation\": \"Cell Stem Cell. 2013 Jun 6;12(6):669-77\"\n}"
+		},
+		{
+			"PMID": 30572641,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Int J Mol Sci. 2018 Dec 19;19(12):",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30572641,\n\t\"citation\": \"Int J Mol Sci. 2018 Dec 19;19(12):\"\n}"
+		},
+		{
+			"PMID": 27276584,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "FEBS J. 2016 Sep;283(17):3232-8",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 27276584,\n\t\"citation\": \"FEBS J. 2016 Sep;283(17):3232-8\"\n}"
+		},
+		{
+			"PMID": 24336571,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Science. 2014 Jan 3;343(6166):84-87",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 24336571,\n\t\"citation\": \"Science. 2014 Jan 3;343(6166):84-87\"\n}"
+		},
+		{
+			"PMID": 29434642,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Stem Cells Int. 2017;2017:8960236",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29434642,\n\t\"citation\": \"Stem Cells Int. 2017;2017:8960236\"\n}"
+		},
+		{
+			"PMID": 16904174,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell. 2006 Aug 25;126(4):663-76",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 16904174,\n\t\"citation\": \"Cell. 2006 Aug 25;126(4):663-76\"\n}"
+		},
+		{
+			"PMID": 17603475,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Biotechnol. 2007 Jul;25(7):778-85",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 17603475,\n\t\"citation\": \"Nat Biotechnol. 2007 Jul;25(7):778-85\"\n}"
+		},
+		{
+			"PMID": 20717154,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Rev Genet. 2010 Sep;11(9):636-46",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 20717154,\n\t\"citation\": \"Nat Rev Genet. 2010 Sep;11(9):636-46\"\n}"
+		},
+		{
+			"PMID": 20660643,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Genetics. 2010 Oct;186(2):757-61",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 20660643,\n\t\"citation\": \"Genetics. 2010 Oct;186(2):757-61\"\n}"
+		},
+		{
+			"PMID": 9804556,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Science. 1998 Nov 6;282(5391):1145-7",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 9804556,\n\t\"citation\": \"Science. 1998 Nov 6;282(5391):1145-7\"\n}"
+		},
+		{
+			"PMID": 26971820,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Stem Cell. 2016 Apr 7;18(4):541-53",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26971820,\n\t\"citation\": \"Cell Stem Cell. 2016 Apr 7;18(4):541-53\"\n}"
+		},
+		{
+			"PMID": 22484455,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Biotechnol. 2012 May;30(5):460-5",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 22484455,\n\t\"citation\": \"Nat Biotechnol. 2012 May;30(5):460-5\"\n}"
+		},
+		{
+			"PMID": 27889317,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Stem Cell. 2017 Jan 5;20(1):70-86",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 27889317,\n\t\"citation\": \"Cell Stem Cell. 2017 Jan 5;20(1):70-86\"\n}"
+		},
+		{
+			"PMID": 25663455,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Biotechnol J. 2015 Feb;10(2):258-72",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25663455,\n\t\"citation\": \"Biotechnol J. 2015 Feb;10(2):258-72\"\n}"
+		},
+		{
+			"PMID": 22949671,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Proc Natl Acad Sci U S A. 2012 Sep 25;109(39):E2579-86",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 22949671,\n\t\"citation\": \"Proc Natl Acad Sci U S A. 2012 Sep 25;109(39):E2579-86\"\n}"
+		},
+		{
+			"PMID": 26138532,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Sci Rep. 2015 Jul 03;5:11791",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26138532,\n\t\"citation\": \"Sci Rep. 2015 Jul 03;5:11791\"\n}"
+		},
+		{
+			"PMID": 26145478,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Stem Cell. 2015 Aug 6;17(2):233-44",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26145478,\n\t\"citation\": \"Cell Stem Cell. 2015 Aug 6;17(2):233-44\"\n}"
+		},
+		{
+			"PMID": 30604771,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Commun. 2019 Jan 3;10(1):53",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30604771,\n\t\"citation\": \"Nat Commun. 2019 Jan 3;10(1):53\"\n}"
+		},
+		{
+			"PMID": 24319664,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Stem Cell Reports. 2013 Sep 26;1(4):283-92",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 24319664,\n\t\"citation\": \"Stem Cell Reports. 2013 Sep 26;1(4):283-92\"\n}"
+		},
+		{
+			"PMID": 28922955,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Hum Gene Ther. 2018 Mar;29(3):366-380",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28922955,\n\t\"citation\": \"Hum Gene Ther. 2018 Mar;29(3):366-380\"\n}"
+		},
+		{
+			"PMID": 23637624,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "PLoS Genet. 2013 Apr;9(4):e1003454",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 23637624,\n\t\"citation\": \"PLoS Genet. 2013 Apr;9(4):e1003454\"\n}"
+		},
+		{
+			"PMID": 21131970,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Methods. 2011 Jan;8(1):74-9",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 21131970,\n\t\"citation\": \"Nat Methods. 2011 Jan;8(1):74-9\"\n}"
+		},
+		{
+			"PMID": 10748519,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Biotechnol. 2000 Apr;18(4):399-404",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 10748519,\n\t\"citation\": \"Nat Biotechnol. 2000 Apr;18(4):399-404\"\n}"
+		},
+		{
+			"PMID": 23169466,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Rev Mol Cell Biol. 2013 Jan;14(1):49-55",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 23169466,\n\t\"citation\": \"Nat Rev Mol Cell Biol. 2013 Jan;14(1):49-55\"\n}"
+		},
+		{
+			"PMID": 28777929,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Am J Hum Genet. 2017 Aug 3;101(2):167-176",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28777929,\n\t\"citation\": \"Am J Hum Genet. 2017 Aug 3;101(2):167-176\"\n}"
+		},
+		{
+			"PMID": 8577732,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Proc Natl Acad Sci U S A. 1996 Feb 6;93(3):1156-60",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 8577732,\n\t\"citation\": \"Proc Natl Acad Sci U S A. 1996 Feb 6;93(3):1156-60\"\n}"
+		},
+		{
+			"PMID": 29554925,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "J Exp Clin Cancer Res. 2018 Mar 20;37(1):62",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29554925,\n\t\"citation\": \"J Exp Clin Cancer Res. 2018 Mar 20;37(1):62\"\n}"
+		},
+		{
+			"PMID": 22704514,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Stem Cell. 2012 Jun 14;10(6):740-749",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 22704514,\n\t\"citation\": \"Cell Stem Cell. 2012 Jun 14;10(6):740-749\"\n}"
+		},
+		{
+			"PMID": 27257519,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Biores Open Access. 2016 May 01;5(1):127-36",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 27257519,\n\t\"citation\": \"Biores Open Access. 2016 May 01;5(1):127-36\"\n}"
+		},
+		{
+			"PMID": 26423934,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Brain Res. 2016 May 1;1638(Pt A):30-41",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26423934,\n\t\"citation\": \"Brain Res. 2016 May 1;1638(Pt A):30-41\"\n}"
+		},
+		{
+			"PMID": 30836725,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Int J Stem Cells. 2019 Mar 30;12(1):114-124",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30836725,\n\t\"citation\": \"Int J Stem Cells. 2019 Mar 30;12(1):114-124\"\n}"
+		},
+		{
+			"PMID": 18657511,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Mol Cell. 2008 Jul 25;31(2):294-301",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 18657511,\n\t\"citation\": \"Mol Cell. 2008 Jul 25;31(2):294-301\"\n}"
+		},
+		{
+			"PMID": 16545108,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Biol Direct. 2006 Mar 16;1:7",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 16545108,\n\t\"citation\": \"Biol Direct. 2006 Mar 16;1:7\"\n}"
+		},
+		{
+			"PMID": 25654603,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Med. 2015 Feb;21(2):121-31",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25654603,\n\t\"citation\": \"Nat Med. 2015 Feb;21(2):121-31\"\n}"
+		},
+		{
+			"PMID": 30605842,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Stem Cell Res. 2019 Jan;34:101378",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30605842,\n\t\"citation\": \"Stem Cell Res. 2019 Jan;34:101378\"\n}"
+		},
+		{
+			"PMID": 26140604,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Stem Cell. 2015 Jul 2;17(1):11-22",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26140604,\n\t\"citation\": \"Cell Stem Cell. 2015 Jul 2;17(1):11-22\"\n}"
+		},
+		{
+			"PMID": 18703739,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Science. 2008 Aug 15;321(5891):960-4",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 18703739,\n\t\"citation\": \"Science. 2008 Aug 15;321(5891):960-4\"\n}"
+		},
+		{
+			"PMID": 27458201,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nucleic Acids Res. 2016 Nov 2;44(19):e149",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 27458201,\n\t\"citation\": \"Nucleic Acids Res. 2016 Nov 2;44(19):e149\"\n}"
+		},
+		{
+			"PMID": 23246482,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Stem Cell. 2013 Feb 7;12(2):238-51",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 23246482,\n\t\"citation\": \"Cell Stem Cell. 2013 Feb 7;12(2):238-51\"\n}"
+		},
+		{
+			"PMID": 26745836,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "GM Crops Food. 2015;6(4):266-76",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26745836,\n\t\"citation\": \"GM Crops Food. 2015;6(4):266-76\"\n}"
+		},
+		{
+			"PMID": 29329593,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Stem Cell Res Ther. 2018 Jan 12;9(1):8",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29329593,\n\t\"citation\": \"Stem Cell Res Ther. 2018 Jan 12;9(1):8\"\n}"
+		},
+		{
+			"PMID": 21048762,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nature. 2010 Nov 4;468(7320):67-71",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 21048762,\n\t\"citation\": \"Nature. 2010 Nov 4;468(7320):67-71\"\n}"
+		},
+		{
+			"PMID": 26549499,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Genome Biol. 2015 Nov 09;16:247",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26549499,\n\t\"citation\": \"Genome Biol. 2015 Nov 09;16:247\"\n}"
+		},
+		{
+			"PMID": 27699445,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Arch Immunol Ther Exp (Warsz). 2017 Jun;65(3):233-240",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 27699445,\n\t\"citation\": \"Arch Immunol Ther Exp (Warsz). 2017 Jun;65(3):233-240\"\n}"
+		},
+		{
+			"PMID": 30741685,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "J Parkinsons Dis. 2019;9(2):265-281",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30741685,\n\t\"citation\": \"J Parkinsons Dis. 2019;9(2):265-281\"\n}"
+		},
+		{
+			"PMID": 22745249,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Science. 2012 Aug 17;337(6096):816-21",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 22745249,\n\t\"citation\": \"Science. 2012 Aug 17;337(6096):816-21\"\n}"
+		},
+		{
+			"PMID": 31071448,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Methods. 2019 Jul 15;164-165:109-119",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 31071448,\n\t\"citation\": \"Methods. 2019 Jul 15;164-165:109-119\"\n}"
+		},
+		{
+			"PMID": 18026168,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Mol Ther. 2008 Feb;16(2):352-8",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 18026168,\n\t\"citation\": \"Mol Ther. 2008 Feb;16(2):352-8\"\n}"
+		},
+		{
+			"PMID": 26121415,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Biotechnol. 2015 Sep;33(9):985-989",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26121415,\n\t\"citation\": \"Nat Biotechnol. 2015 Sep;33(9):985-989\"\n}"
+		},
+		{
+			"PMID": 18446154,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Methods. 2008 May;5(5):374-5",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 18446154,\n\t\"citation\": \"Nat Methods. 2008 May;5(5):374-5\"\n}"
+		},
+		{
+			"PMID": 23287722,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Science. 2013 Feb 15;339(6121):823-6",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 23287722,\n\t\"citation\": \"Science. 2013 Feb 15;339(6121):823-6\"\n}"
+		},
+		{
+			"PMID": 30704346,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Tissue Eng Part A. 2019 May;25(9-10):759-772",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30704346,\n\t\"citation\": \"Tissue Eng Part A. 2019 May;25(9-10):759-772\"\n}"
+		},
+		{
+			"PMID": 24157548,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Protoc. 2013 Nov;8(11):2281-2308",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 24157548,\n\t\"citation\": \"Nat Protoc. 2013 Nov;8(11):2281-2308\"\n}"
+		},
+		{
+			"PMID": 29666172,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Gut. 2019 Apr;68(4):684-692",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29666172,\n\t\"citation\": \"Gut. 2019 Apr;68(4):684-692\"\n}"
+		},
+		{
+			"PMID": 23561441,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Stem Cell. 2013 Apr 4;12(4):393-4",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 23561441,\n\t\"citation\": \"Cell Stem Cell. 2013 Apr 4;12(4):393-4\"\n}"
+		},
+		{
+			"PMID": 29246302,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Mol Ther Nucleic Acids. 2017 Dec 15;9:230-241",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29246302,\n\t\"citation\": \"Mol Ther Nucleic Acids. 2017 Dec 15;9:230-241\"\n}"
+		},
+		{
+			"PMID": 28780462,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Colloids Surf B Biointerfaces. 2017 Nov 1;159:62-77",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 28780462,\n\t\"citation\": \"Colloids Surf B Biointerfaces. 2017 Nov 1;159:62-77\"\n}"
+		},
+		{
+			"PMID": 21552286,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Rev Microbiol. 2011 Jun;9(6):467-77",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 21552286,\n\t\"citation\": \"Nat Rev Microbiol. 2011 Jun;9(6):467-77\"\n}"
+		},
+		{
+			"PMID": 25517468,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Cell Stem Cell. 2014 Nov 6;15(5):643-52",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 25517468,\n\t\"citation\": \"Cell Stem Cell. 2014 Nov 6;15(5):643-52\"\n}"
+		},
+		{
+			"PMID": 26493500,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Commun. 2015 Oct 23;6:8715",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 26493500,\n\t\"citation\": \"Nat Commun. 2015 Oct 23;6:8715\"\n}"
+		},
+		{
+			"PMID": 31037510,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Protein Cell. 2020 Jan;11(1):1-22",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 31037510,\n\t\"citation\": \"Protein Cell. 2020 Jan;11(1):1-22\"\n}"
+		},
+		{
+			"PMID": 29394327,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Biostatistics. 2019 Apr 1;20(2):273-286",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 29394327,\n\t\"citation\": \"Biostatistics. 2019 Apr 1;20(2):273-286\"\n}"
+		},
+		{
+			"PMID": 30804331,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Commun. 2019 Feb 25;10(1):928",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 30804331,\n\t\"citation\": \"Nat Commun. 2019 Feb 25;10(1):928\"\n}"
+		},
+		{
+			"PMID": 23386978,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Elife. 2013 Jan 29;2:e00471",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 23386978,\n\t\"citation\": \"Elife. 2013 Jan 29;2:e00471\"\n}"
+		},
+		{
+			"PMID": 21738127,
+			"title": "",
+			"journal": "",
+			"authorList": [],
+			"DOI": "",
+			"date": "",
+			"PMC": "",
+			"citation": "Nat Biotechnol. 2011 Jul 07;29(8):731-4",
+			"category": 0,
+			"name": "{\n\t\"PMID\": 21738127,\n\t\"citation\": \"Nat Biotechnol. 2011 Jul 07;29(8):731-4\"\n}"
+		}
+	],
+	"links": [
+		{
+			"source": 1,
+			"target": 4
+		},
+		{
+			"source": 1,
+			"target": 5
+		},
+		{
+			"source": 1,
+			"target": 6
+		},
+		{
+			"source": 1,
+			"target": 7
+		},
+		{
+			"source": 1,
+			"target": 8
+		},
+		{
+			"source": 1,
+			"target": 9
+		},
+		{
+			"source": 1,
+			"target": 0
+		},
+		{
+			"source": 1,
+			"target": 10
+		},
+		{
+			"source": 1,
+			"target": 11
+		},
+		{
+			"source": 1,
+			"target": 12
+		},
+		{
+			"source": 1,
+			"target": 13
+		},
+		{
+			"source": 1,
+			"target": 14
+		},
+		{
+			"source": 1,
+			"target": 15
+		},
+		{
+			"source": 1,
+			"target": 16
+		},
+		{
+			"source": 1,
+			"target": 17
+		},
+		{
+			"source": 1,
+			"target": 18
+		},
+		{
+			"source": 1,
+			"target": 19
+		},
+		{
+			"source": 1,
+			"target": 20
+		},
+		{
+			"source": 1,
+			"target": 21
+		},
+		{
+			"source": 1,
+			"target": 22
+		},
+		{
+			"source": 1,
+			"target": 23
+		},
+		{
+			"source": 1,
+			"target": 24
+		},
+		{
+			"source": 1,
+			"target": 25
+		},
+		{
+			"source": 1,
+			"target": 26
+		},
+		{
+			"source": 1,
+			"target": 27
+		},
+		{
+			"source": 1,
+			"target": 28
+		},
+		{
+			"source": 1,
+			"target": 29
+		},
+		{
+			"source": 1,
+			"target": 30
+		},
+		{
+			"source": 1,
+			"target": 31
+		},
+		{
+			"source": 1,
+			"target": 32
+		},
+		{
+			"source": 1,
+			"target": 33
+		},
+		{
+			"source": 1,
+			"target": 34
+		},
+		{
+			"source": 1,
+			"target": 35
+		},
+		{
+			"source": 1,
+			"target": 36
+		},
+		{
+			"source": 1,
+			"target": 37
+		},
+		{
+			"source": 1,
+			"target": 38
+		},
+		{
+			"source": 1,
+			"target": 39
+		},
+		{
+			"source": 1,
+			"target": 40
+		},
+		{
+			"source": 1,
+			"target": 41
+		},
+		{
+			"source": 1,
+			"target": 42
+		},
+		{
+			"source": 1,
+			"target": 43
+		},
+		{
+			"source": 1,
+			"target": 44
+		},
+		{
+			"source": 1,
+			"target": 45
+		},
+		{
+			"source": 1,
+			"target": 46
+		},
+		{
+			"source": 1,
+			"target": 47
+		},
+		{
+			"source": 1,
+			"target": 48
+		},
+		{
+			"source": 1,
+			"target": 49
+		},
+		{
+			"source": 1,
+			"target": 50
+		},
+		{
+			"source": 1,
+			"target": 51
+		},
+		{
+			"source": 1,
+			"target": 52
+		},
+		{
+			"source": 1,
+			"target": 53
+		},
+		{
+			"source": 1,
+			"target": 54
+		},
+		{
+			"source": 1,
+			"target": 55
+		},
+		{
+			"source": 1,
+			"target": 56
+		},
+		{
+			"source": 1,
+			"target": 57
+		},
+		{
+			"source": 1,
+			"target": 58
+		},
+		{
+			"source": 1,
+			"target": 59
+		},
+		{
+			"source": 1,
+			"target": 60
+		},
+		{
+			"source": 1,
+			"target": 61
+		},
+		{
+			"source": 1,
+			"target": 62
+		},
+		{
+			"source": 1,
+			"target": 63
+		},
+		{
+			"source": 1,
+			"target": 64
+		},
+		{
+			"source": 1,
+			"target": 65
+		},
+		{
+			"source": 1,
+			"target": 66
+		},
+		{
+			"source": 2,
+			"target": 67
+		},
+		{
+			"source": 2,
+			"target": 68
+		},
+		{
+			"source": 2,
+			"target": 69
+		},
+		{
+			"source": 2,
+			"target": 70
+		},
+		{
+			"source": 2,
+			"target": 71
+		},
+		{
+			"source": 2,
+			"target": 72
+		},
+		{
+			"source": 2,
+			"target": 11
+		},
+		{
+			"source": 2,
+			"target": 73
+		},
+		{
+			"source": 2,
+			"target": 74
+		},
+		{
+			"source": 2,
+			"target": 75
+		},
+		{
+			"source": 2,
+			"target": 7
+		},
+		{
+			"source": 2,
+			"target": 76
+		},
+		{
+			"source": 2,
+			"target": 77
+		},
+		{
+			"source": 2,
+			"target": 78
+		},
+		{
+			"source": 2,
+			"target": 79
+		},
+		{
+			"source": 2,
+			"target": 80
+		},
+		{
+			"source": 2,
+			"target": 81
+		},
+		{
+			"source": 2,
+			"target": 82
+		},
+		{
+			"source": 2,
+			"target": 83
+		},
+		{
+			"source": 2,
+			"target": 84
+		},
+		{
+			"source": 2,
+			"target": 85
+		},
+		{
+			"source": 2,
+			"target": 86
+		},
+		{
+			"source": 2,
+			"target": 87
+		},
+		{
+			"source": 2,
+			"target": 88
+		},
+		{
+			"source": 2,
+			"target": 89
+		},
+		{
+			"source": 2,
+			"target": 90
+		},
+		{
+			"source": 2,
+			"target": 0
+		},
+		{
+			"source": 3,
+			"target": 91
+		},
+		{
+			"source": 3,
+			"target": 92
+		},
+		{
+			"source": 3,
+			"target": 93
+		},
+		{
+			"source": 3,
+			"target": 94
+		},
+		{
+			"source": 3,
+			"target": 88
+		},
+		{
+			"source": 3,
+			"target": 95
+		},
+		{
+			"source": 3,
+			"target": 96
+		},
+		{
+			"source": 3,
+			"target": 97
+		},
+		{
+			"source": 3,
+			"target": 98
+		},
+		{
+			"source": 3,
+			"target": 99
+		},
+		{
+			"source": 3,
+			"target": 100
+		},
+		{
+			"source": 3,
+			"target": 101
+		},
+		{
+			"source": 3,
+			"target": 102
+		},
+		{
+			"source": 3,
+			"target": 0
+		},
+		{
+			"source": 3,
+			"target": 103
+		},
+		{
+			"source": 3,
+			"target": 104
+		},
+		{
+			"source": 3,
+			"target": 105
+		},
+		{
+			"source": 3,
+			"target": 106
+		},
+		{
+			"source": 3,
+			"target": 107
+		},
+		{
+			"source": 3,
+			"target": 108
+		},
+		{
+			"source": 3,
+			"target": 109
+		},
+		{
+			"source": 3,
+			"target": 67
+		},
+		{
+			"source": 3,
+			"target": 110
+		},
+		{
+			"source": 3,
+			"target": 111
+		},
+		{
+			"source": 3,
+			"target": 112
+		},
+		{
+			"source": 3,
+			"target": 113
+		},
+		{
+			"source": 3,
+			"target": 114
+		},
+		{
+			"source": 3,
+			"target": 115
+		},
+		{
+			"source": 3,
+			"target": 116
+		},
+		{
+			"source": 3,
+			"target": 117
+		},
+		{
+			"source": 3,
+			"target": 118
+		},
+		{
+			"source": 3,
+			"target": 119
+		},
+		{
+			"source": 3,
+			"target": 120
+		},
+		{
+			"source": 3,
+			"target": 121
+		},
+		{
+			"source": 3,
+			"target": 122
+		},
+		{
+			"source": 3,
+			"target": 123
+		},
+		{
+			"source": 3,
+			"target": 124
+		},
+		{
+			"source": 3,
+			"target": 125
+		},
+		{
+			"source": 3,
+			"target": 126
+		},
+		{
+			"source": 3,
+			"target": 127
+		},
+		{
+			"source": 3,
+			"target": 128
+		},
+		{
+			"source": 3,
+			"target": 129
+		},
+		{
+			"source": 3,
+			"target": 130
+		},
+		{
+			"source": 3,
+			"target": 131
+		},
+		{
+			"source": 3,
+			"target": 132
+		},
+		{
+			"source": 3,
+			"target": 133
+		},
+		{
+			"source": 3,
+			"target": 81
+		},
+		{
+			"source": 3,
+			"target": 134
+		},
+		{
+			"source": 3,
+			"target": 135
+		},
+		{
+			"source": 3,
+			"target": 136
+		},
+		{
+			"source": 3,
+			"target": 137
+		},
+		{
+			"source": 3,
+			"target": 6
+		},
+		{
+			"source": 3,
+			"target": 138
+		},
+		{
+			"source": 3,
+			"target": 139
+		},
+		{
+			"source": 3,
+			"target": 140
+		},
+		{
+			"source": 3,
+			"target": 141
+		},
+		{
+			"source": 3,
+			"target": 142
+		},
+		{
+			"source": 3,
+			"target": 143
+		},
+		{
+			"source": 3,
+			"target": 144
+		},
+		{
+			"source": 3,
+			"target": 145
+		},
+		{
+			"source": 3,
+			"target": 146
+		},
+		{
+			"source": 3,
+			"target": 147
+		},
+		{
+			"source": 3,
+			"target": 148
+		},
+		{
+			"source": 3,
+			"target": 149
+		},
+		{
+			"source": 3,
+			"target": 150
+		},
+		{
+			"source": 3,
+			"target": 151
+		},
+		{
+			"source": 3,
+			"target": 152
+		},
+		{
+			"source": 3,
+			"target": 153
+		},
+		{
+			"source": 3,
+			"target": 154
+		},
+		{
+			"source": 3,
+			"target": 155
+		},
+		{
+			"source": 3,
+			"target": 156
+		},
+		{
+			"source": 3,
+			"target": 11
+		},
+		{
+			"source": 3,
+			"target": 157
+		},
+		{
+			"source": 3,
+			"target": 158
+		},
+		{
+			"source": 3,
+			"target": 159
+		},
+		{
+			"source": 3,
+			"target": 160
+		},
+		{
+			"source": 3,
+			"target": 161
+		},
+		{
+			"source": 3,
+			"target": 162
+		},
+		{
+			"source": 3,
+			"target": 163
+		},
+		{
+			"source": 3,
+			"target": 164
+		},
+		{
+			"source": 3,
+			"target": 165
+		},
+		{
+			"source": 3,
+			"target": 166
+		},
+		{
+			"source": 3,
+			"target": 167
+		},
+		{
+			"source": 3,
+			"target": 168
+		},
+		{
+			"source": 3,
+			"target": 169
+		},
+		{
+			"source": 3,
+			"target": 170
+		},
+		{
+			"source": 3,
+			"target": 171
+		}
+	]
+}
