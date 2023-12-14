@@ -122,8 +122,10 @@ The output is the same as above method.
 
 ## Pitfalls
 
-Due to the limitation of PubMed web API, some articles' referernce list cannot load correctly. 
-Therefore, the report cannot display all citation relationships.
+1. Due to the limitation of PubMed web API, some articles' reference list cannot load correctly. Therefore, the report cannot display all citation relationships.
+2. Current version of this program only can display reference network. In the future we will support citation network.
+3. If input too much articles into program, the render on the web browser will be very slow. Recommend input is less than 10 articles. In the future we will support node pruning, which will remove some low citation/reference articles.
+
 
 
 

@@ -119,7 +119,8 @@ class ArticleObject:
         if(len(self.citation) < len(artObj1.citation)):
             self.citation = artObj1.citation
 
-def processPubmedData(element) -> (list,list): # extract citations
+# Extract reference list
+def processPubmedData(element) -> (list,list): 
     PMID = -1
     articleIdList = element.getElementsByTagName("ArticleIdList")[0].getElementsByTagName("ArticleId")
     for i in articleIdList:
@@ -157,7 +158,8 @@ def processPubmedData(element) -> (list,list): # extract citations
         pass
     return (citMat,citArt)
 
-def processMedlineCitation(element) -> ArticleObject: # extract article information
+# Extract article information
+def processMedlineCitation(element) -> ArticleObject: 
     # PMID
     PMID = int(element.getElementsByTagName("PMID")[0].childNodes[0].nodeValue)
     # Date
@@ -195,9 +197,16 @@ def processMedlineCitation(element) -> ArticleObject: # extract article informat
     authList = []
     authNode = artMeta.getElementsByTagName("AuthorList")[0].getElementsByTagName("Author")
     for a in authNode:
-        lastName = a.getElementsByTagName("LastName")[0].childNodes[0].nodeValue
-        foreName = a.getElementsByTagName("ForeName")[0].childNodes[0].nodeValue
-        authList.append(f"{lastName} {foreName}")
+        try:
+            lastName = a.getElementsByTagName("LastName")[0].childNodes[0].nodeValue
+            foreName = a.getElementsByTagName("ForeName")[0].childNodes[0].nodeValue
+            authList.append(f"{lastName} {foreName}")
+        except:
+            try:
+                collectName = a.getElementsByTagName("CollectiveName")[0].childNodes[0].nodeValue
+                authList.append(collectName)
+            except:
+                pass
     # Then we can generate an `ArticleObject` object
     artObj = ArticleObject(PMID)
     artObj.setTitle(title)
@@ -211,8 +220,62 @@ def processPubmedArticle(element) -> (ArticleObject,list): # Top level process
     artObj = processMedlineCitation(element.getElementsByTagName("MedlineCitation")[0])
     (citEdg,citArt) = processPubmedData(element.getElementsByTagName("PubmedData")[0])
     return (artObj,citEdg,citArt)
-    
 
+# Parse citation information from a xml string
+def parseCitation(string):
+    data = parseString(string).documentElement
+    linkSets = data.getElementsByTagName("LinkSet")[0].getElementsByTagName("LinkSetDb")
+    dt = {}
+    for s in linkSets:
+        DbTo     = s.getElementsByTagName("DbTo"    )[0].childNodes[0].nodeValue
+        LinkName = s.getElementsByTagName("LinkName")[0].childNodes[0].nodeValue
+        Links    = s.getElementsByTagName("Link")
+        linkList = []
+        for l in Links:
+            linkList.append(int(l.getElementsByTagName("Id")[0].childNodes[0].nodeValue))
+        dt[LinkName] = {"DbTo":DbTo,"linkList":linkList}
+        print(f"LinkName={LinkName}")
+        print(f"Length of this category:{len(linkList)}")
+    if("pubmed_pubmed_citedin" in dt):
+        return dt["pubmed_pubmed_citedin"]["linkList"]
+    else: return []
+
+# Get citation information
+def getCitations(pmid:int) -> (list,list):
+    print(f"get citation information of article `{pmid}`")
+    # get full citation list from elink API
+    url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&api_key=ae4e7d262dc452dece0be6c4a7e06d9ccc09&id={pmid}"
+    req = requests.get(url)
+    req.encoding = "utf-8"
+    txt = req.text
+    citations = parseCitation(txt)
+    citEdge = []
+    for c in citations:
+        citEdge.append([c,pmid])
+    #print(f"In subprecess`getCitations()`, citEdge=")
+    #print(citEdge)
+    # get details of each citation article from efetch API
+    citDetails = []
+    if(len(citations)>0):
+        queryID = ""
+        for c in citations: queryID += f"{c},"
+        queryID = queryID[0:-1]
+        url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&api_key=ae4e7d262dc452dece0be6c4a7e06d9ccc09&id={queryID}"
+        print(url)
+        req = requests.get(url)
+        req.encoding = "utf-8"
+        txt = req.text
+        data = parseString(txt).documentElement
+        PubmedArticleSet = data.getElementsByTagName("PubmedArticle") # PubMed Article Object
+        for e in PubmedArticleSet:
+            artObj,c1,c2 = processPubmedArticle(e)
+            citDetails.append(artObj)
+    return (citEdge,citDetails)
+
+
+# The top-level process function.
+# Input a xml string, parse xml, (query addtional information if necessary),
+# and return a dict which can be exported as json and visualized in echarts.
 def parseXML(xmlText): 
     # define a dict data structure, for data storage
     # this dict will be used to generate echart network plot
@@ -226,9 +289,7 @@ def parseXML(xmlText):
             "nodes":[],
             "links":[]
             }
-
     # Read XML document
-    #data = parse(fpath).documentElement
     data = parseString(xmlText).documentElement
     PubmedArticleSet = data.getElementsByTagName("PubmedArticle") # PubMed Article Object
     # use a dict to avoid duplicated object
@@ -237,39 +298,54 @@ def parseXML(xmlText):
     # also, to make sure all "query" articles can have correct category, 
     # these reference articles should append later
     refArticles = [] # list of "ArticleObject" type
+    # these citation articles should append later
+    citArticles = [] # list of "ArticleObject" type
     # we also need a container to storage edge information
     edgeList = []
     # process all query result
     for e in PubmedArticleSet:
-        artObj,citEdge,citArt = processPubmedArticle(e)
+        artObj,refEdge,refArt = processPubmedArticle(e)
         artObj_dt = artObj.toDict()
         artObj_dt["category"] = 1 # set category as "query"
         pmid = artObj_dt["PMID"]
         artObj_dt["name"] = json.dumps(artObj.toSimpleDict(),indent="\t")
         data_dt["nodes"].append(artObj_dt);PMID_dict[pmid] = i;i+=1
-        #print(json.dumps(artObj.toDict(),indent="\t"))
+        # storage reference information
+        #print("refEdge=")
+        #print(refEdge)
+        edgeList    += refEdge
+        refArticles += refArt
+        # get citations and storage citation information
+        citEdge,citArt = getCitations(pmid)
+        #print("citEdge=")
         #print(citEdge)
-        edgeList += citEdge
-        for f in citArt:
-            #print(json.dumps(f.toDict(),indent="\t"))
-            refArticles.append(f) 
-        #for d in citEdge:
-        #    edge_dt = {"source":str(d[0]),"target":str(d[1])}
-        #    data_dt["links"].append(edge_dt)
+        edgeList    += citEdge
+        citArticles += citArt
+    for c in citArticles:
+        c_dt = c.toDict()
+        c_dt["category"] = 2 # set category as "citation"
+        pmid = c_dt["PMID"] 
+        #print(f"cit\t{pmid}")
+        c_dt["name"] = json.dumps(c.toSimpleDict(),indent="\t")
+        if(pmid not in PMID_dict):
+            data_dt["nodes"].append(c_dt);PMID_dict[pmid] = i;i+=1
     for f in refArticles:
         f_dt = f.toDict()
         f_dt["category"] = 0 # set category as "reference"
         pmid = f_dt["PMID"]
+        #print(f"ref\t{pmid}")
         f_dt["name"] = json.dumps(f.toSimpleDict(),indent="\t")
         if(pmid not in PMID_dict):
             data_dt["nodes"].append(f_dt);PMID_dict[pmid] = i;i+=1
     for d in edgeList:
+        #print(d)
         source_pmid = d[0]
         target_pmid = d[1]
         source_index = PMID_dict[source_pmid]
         target_index = PMID_dict[target_pmid]
         edge_dt = {"source":source_index,"target":target_index}
-        data_dt["links"].append(edge_dt)
+        if(edge_dt not in data_dt["links"]):
+            data_dt["links"].append(edge_dt)
     return data_dt
 
 def queryPubmed(pmidList):
@@ -278,8 +354,7 @@ def queryPubmed(pmidList):
     for i in pmidList:
         queryId += f"{i},"
     queryId = queryId[0:-1]
-
-    url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id={queryId}"
+    url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&api_key=ae4e7d262dc452dece0be6c4a7e06d9ccc09&id={queryId}"
     print(url)
     req = requests.get(url)
     req.encoding = "utf-8"
@@ -316,7 +391,7 @@ if(__name__=="__main__"):
     grp = prs.add_mutually_exclusive_group()
     grp.add_argument("-f","--file",action="store",type=str,help="PMID list file.")
     grp.add_argument("-l","--list",action="store",type=str,help="PMID list(comma seperate).")
-    prs.add_argument("-m","--max",action="store",type=int,help="Max limitation of query article number. Default is 10.",default=10)
+    prs.add_argument("-m","--max", action="store",type=int,help="Max limitation of query article number. Default is 10.",default=10)
     prs.add_argument("-p","--port",action="store",type=int,help="Network port of the report server. Default is using random number.",default=-999)
     args = prs.parse_args()
 
@@ -362,5 +437,10 @@ if(__name__=="__main__"):
             webbrowser.open(f"http://localhost:{PORT}",new=1)
         # Start web server
         httpd.serve_forever()
+
+
+
+
+
 
 
