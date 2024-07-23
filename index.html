@@ -1,44 +1,106 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8"/>
-		<title>network visualization</title>
-		<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.3/echarts.js"></script>
-		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.js"></script>
-<style>
-
+    <head>
+        <meta charset="utf-8"/>
+        <title>network visualization</title>
+        <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.3/echarts.js"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.js"></script>
+        <style>
 *{
     margin: 0;
     padding: 0;
 }
 h1{margin:20px;padding:20px;}
 body{background-color:#efefef;}
-</style>
-	</head>
-	<body>
-		<h1>network visualization</h1>
-		<!--div id="main" style="width:90%;min-height=500px;margin:20px;padding:20px;border-radius:20px;box-shadow:0px 0px 5px #ccc;background-color:#ffffff;overflow:visible"-->
-		<div id="main" style="width:90%;height:800px;margin:20px;padding:20px;border-radius:20px;box-shadow:0px 0px 5px #ccc;background-color:#ffffff;">
-		</div>
+
+.side-panel{
+    display:inline-block;
+    text-align:left;
+    /*float:left;*/
+    width:25%;
+    height:800px;
+    margin:10px;
+    padding:5px;
+    border-radius:20px;
+    box-shadow:0px 0px 5px #ccc;
+    background-color:#ffffff;
+    position: static !important;
+}
+.row{
+    display:flex;
+    text-align:center;
+}
+#main-side-panel{
+    display:inline-block;
+    text-align:left;
+    /*float:center;*/
+    width:48%;
+    height:800px;
+    margin:10px;
+    padding:5px;
+    border-radius:20px;
+    box-shadow:0px 0px 5px #ccc;
+    background-color:#ffffff;
+    position: static !important;
+}
+#main{
+    width:100%;
+    height:800px;
+}
+.panel-title h2{
+    margin:10px 20px 10px 20px;
+    padding: 0px 5px 0px 15px;
+    color: #48a;
+    border-left: solid 3px #8af; 
+
+}
+        </style>
+    </head>
+    <body>
+        <h1>network visualization</h1>
+        <div class="row">
+            <!----- Left side panel, for listing reference/citation links ----->
+            <div id="left-side-panel" class="side-panel">
+                <div class="panel-title">
+                    <h2>Related articles</h2>
+                </div>
+            </div>
+            <!----- Main panel, the canvas for citation map showing ----->
+            <div id="main-side-panel" class="side-panel">
+                <div class="panel-title">
+                    <h2>Citation network</h2>
+                </div>
+                <div id="main">
+                </div>
+            </div>
+            <!----- Right side panel, for listing current selected article ----->
+            <div id="right-side-panel" class="side-panel">
+                <div class="panel-title">
+                    <h2>Current article</h2>
+                </div>
+                <div id="article-card">
+                    <div id="article-title">
+                    </div>
+                    <div id="article-authors">
+                    </div>
+                    <div id="article-journal">
+                    </div>
+                    <div id="article-date">
+                    </div>
+                    <div id="article-pmid">
+                    </div>
+                    <div id="article-DOI">
+                    </div>
+                    <div id="article-citation">
+                    </div>
+                    <div id="article-abstract">
+                    </div>
+                </div>
+            </div>
+        </div>
 
 <!----------------- The echart script start at here ------------------->
 <script type="text/javascript">
-
-// Following code is used for automatically set canvas height
-//$.get("./citation_map.json",function(x){
-//  var nodeNum = x["nodes"].length;
-//  var divHeight = 300 + nodeNum * 50 / 43;
-//  document.getElementById("main").style["height"]     = divHeight+"px"; 
-  //document.getElementById("main").style["min-height"] = divHeight+"px"; 
-//})
-
-
-/* import * as echarts from 'echarts/core'; */
-/* import { LegendComponent } from 'echarts/components'; */
-/* import { GraphChart } from 'echarts/charts'; */
-/* import { CanvasRenderer } from 'echarts/renderers'; */
-/* echarts.use([LegendComponent, GraphChart, CanvasRenderer]); */
-/* var ROOT_PATH = 'https://echarts.apache.org/examples'; */
 
 var chartDom = document.getElementById('main');
 var myChart = echarts.init(chartDom);
@@ -54,6 +116,13 @@ $.get(JSON_PATH, function (data) {
 // console.log("<<< data end;\n");
   myChart.hideLoading();
   option = {
+    title: {
+      text: 'Citation Map',
+      subtext: 'force layout',
+      top: 'top',
+      left: 'right'
+    },
+    tooltip: {},
     legend: {
       data: ['reference', 'query', 'citation']
     },
@@ -70,10 +139,20 @@ $.get(JSON_PATH, function (data) {
           fontFamily:'Consolas',
         },
         draggable: true,
+    roam:true,
         data: data.nodes.map(function (node, idx) {
           node.id = idx;
           return node;
         }),
+
+    emphasis: {
+        itemStyle: {
+          shadowBlur: 16,
+          shadowOffsetX: 0,
+          shadowColor: 'rgba(0, 0, 0, 0.8)'
+          }
+        },
+
         categories: data.categories,
         force: {
           edgeLength: 5,
@@ -90,6 +169,38 @@ $.get(JSON_PATH, function (data) {
 
 option && myChart.setOption(option);
 // myChart.setOption(option);
+
+// 下面的代码用于响应鼠标点击动作，使用`params`参数可以获得当前节点的所有信息
+// 如此可以实现论文详细信息的加载
+myChart.on('click', function (params) {
+    //window.open('https://www.baidu.com/s?wd=' + encodeURIComponent(params.name));
+    console.log("click mouse");
+    console.log(params);
+    var dat        = params.data;
+    var title      = dat.title;
+    var authorList = dat.authorList;
+    var journal    = dat.journal;
+    var date_      = dat.date;
+    var pmid       = dat.pmid;
+    var doi        = dat.DOI;
+    var citation   = dat.citation;
+    var abstract   = dat.abstract;
+
+    var doiHtml = "<a href='https://doi.org/"+doi+"' target='_blank'>"+doi+"</a>";
+
+    document.getElementById('article-title').innerHTML = title;
+    document.getElementById('article-authors').innerHTML = authorList[0]+",..,"+authorList.at(-1);
+    document.getElementById('article-journal').innerHTML = journal;
+    document.getElementById('article-date').innerHTML = date_;
+    document.getElementById('article-pmid').innerHTML = pmid;
+    document.getElementById('article-DOI').innerHTML = doiHtml;
+    document.getElementById('article-citation').innerHTML = citation;
+    document.getElementById('article-abstract').innerHTML = abstract;
+
+});
+
+
+
 
 </script>
 <!----------------- The echart script  end  at here ------------------->

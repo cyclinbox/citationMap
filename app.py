@@ -26,6 +26,7 @@ import socketserver
 import os,sys
 import argparse
 
+
 class ArticleObject:
     PMID       = 0
     title      = ""
@@ -35,6 +36,7 @@ class ArticleObject:
     date       = ""
     PMC        = ""
     citation   = ""
+    abstract   = ""
     def __init__(self,PMID: int): 
         # when initialize an `ArticleObject` object, the PMID parameter is needed.
         # If the PMID is not avaliable, you can set PMID to a negative interger alternatively, 
@@ -55,6 +57,29 @@ class ArticleObject:
         self.PMC   = PMC
     def setCitation(self, citation:str):
         self.citation = citation
+    def setAbstract(self, abstract:str):
+        self.abstract = abstract
+    def toTooltip(self) -> str:
+        if(len(self.authorList)>0 and self.date!=""):
+            firstAuth = self.authorList[0]
+            year = self.date.split("-")[0]
+            return "{},{}".format(firstAuth,year) # `Author,Year` format
+        else:
+            if(self.citation!=""):
+                firstAuth = self.citation.split(",")[0]
+                try:
+                    year = self.citation.split("(")[1].split(")")[0]
+                except:
+                    year = self.citation[0:-1].split(".")[-1]
+                return "{},{}".format(firstAuth,year) # `Author,Year` format
+            else:
+                temp = self.toSimpleDict()
+                txt = ""
+                for k in list(temp.keys()):
+                    txt += "{}:{};".format(k,temp[k])
+                return txt
+
+
     def toDict(self) -> dict:
         dt = {
                 "PMID":     self.PMID,
@@ -64,7 +89,8 @@ class ArticleObject:
                 "DOI":      self.DOI,
                 "date":     self.date,
                 "PMC":      self.PMC,
-                "citation": self.citation
+                "citation": self.citation,
+                "abstract": self.abstract
             }
         return dt
 
@@ -78,6 +104,7 @@ class ArticleObject:
         if(self.date    != ""): dt["date"]      = self.date
         if(self.PMC     != ""): dt["PMC"]       = self.PMC
         if(self.citation!= ""): dt["citation"]  = self.citation
+        if(self.abstract!= ""): dt["abstract"]  = self.abstract
         if(len(self.authorList)>=1): dt["authorList"]= self.authorList
         return dt
 
@@ -90,7 +117,8 @@ class ArticleObject:
         if("date"       in dt): self.date       = dt["date"]
         if("PMC"        in dt): self.PMC        = dt["PMC"]
         if("citation"   in dt): self.citation   = dt["citation"]
-    # some times for one artile we generate two objects, then we need to merge then into one.
+        if("abstract"   in dt): self.abstract   = dt["abstract"]
+    # some times for one article we generate two objects, then we need to merge then into one.
     def merge(self, artObj1): 
         # PMID check:
         if(self.PMID<0 and artObj1.PMID>0):
@@ -118,6 +146,10 @@ class ArticleObject:
         # citation check:
         if(len(self.citation) < len(artObj1.citation)):
             self.citation = artObj1.citation
+        # abstract check:
+        if(len(self.abstract) < len(artObj1.abstract)):
+            self.abstract = artObj1.abstract
+
 
 # Extract reference list
 def processPubmedData(element) -> (list,list): 
@@ -183,36 +215,47 @@ def processMedlineCitation(element) -> ArticleObject:
     finally:
         Date  = f"{Year}-{Month}-{Day}"
     # Article metadata
-    artMeta = element.getElementsByTagName("Article")[0]
+    try:      artMeta = element.getElementsByTagName("Article")[0]
+    except:   artMeta = ""
     ## Journal
-    journal = artMeta.getElementsByTagName("Journal")[0].getElementsByTagName("Title")[0].childNodes[0].nodeValue
+    try:      journal = artMeta.getElementsByTagName("Journal")[0].getElementsByTagName("Title")[0].childNodes[0].nodeValue
+    except:   journal = ""
     ## Title
-    title   = artMeta.getElementsByTagName("ArticleTitle")[0].childNodes[0].nodeValue
+    try:      title   = artMeta.getElementsByTagName("ArticleTitle")[0].childNodes[0].nodeValue
+    except:   title   = ""
+    ## Abstract
+    try:      abstract = artMeta.getElementsByTagName("Abstract")[0].getElementsByTagName("AbstractText")[0].childNodes[0].nodeValue
+    except:   abstract = ""
     ## DOI
     doi = ""
-    for e in  artMeta.getElementsByTagName("ELocationID"):
-        if(e.getAttribute("EIdType")=="doi"):
-            doi = e.childNodes[0].nodeValue
+    try:
+        for e in  artMeta.getElementsByTagName("ELocationID"):
+            if(e.getAttribute("EIdType")=="doi"):
+                doi = e.childNodes[0].nodeValue
+    except:pass
     ## AuthorList
     authList = []
-    authNode = artMeta.getElementsByTagName("AuthorList")[0].getElementsByTagName("Author")
-    for a in authNode:
-        try:
-            lastName = a.getElementsByTagName("LastName")[0].childNodes[0].nodeValue
-            foreName = a.getElementsByTagName("ForeName")[0].childNodes[0].nodeValue
-            authList.append(f"{lastName} {foreName}")
-        except:
+    try:
+        authNode = artMeta.getElementsByTagName("AuthorList")[0].getElementsByTagName("Author")
+        for a in authNode:
             try:
-                collectName = a.getElementsByTagName("CollectiveName")[0].childNodes[0].nodeValue
-                authList.append(collectName)
+                lastName = a.getElementsByTagName("LastName")[0].childNodes[0].nodeValue
+                foreName = a.getElementsByTagName("ForeName")[0].childNodes[0].nodeValue
+                authList.append(f"{lastName} {foreName}")
             except:
-                pass
+                try:
+                    collectName = a.getElementsByTagName("CollectiveName")[0].childNodes[0].nodeValue
+                    authList.append(collectName)
+                except:
+                    pass
+    except:pass
     # Then we can generate an `ArticleObject` object
     artObj = ArticleObject(PMID)
     artObj.setTitle(title)
     artObj.setJournal(journal)
     artObj.setAuthorList(authList)
     artObj.setDOI(doi)
+    artObj.setAbstract(abstract)
     artObj.setDate(Date)
     return artObj
 
@@ -240,6 +283,44 @@ def parseCitation(string):
         return dt["pubmed_pubmed_citedin"]["linkList"]
     else: return []
 
+# query pmid list.
+# Input: a list of PMID
+# Return: raw text of PubMed API's xml result. you need additional work to parse it.
+def queryPubmed(pmidList):
+    #print(pmidList)
+    queryId = ""
+    for i in pmidList:
+        queryId += f"{i},"
+    queryId = queryId[0:-1]
+    url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&api_key=ae4e7d262dc452dece0be6c4a7e06d9ccc09&id={queryId}"
+    print(url)
+    req = requests.get(url)
+    req.encoding = "utf-8"
+    txt = req.text
+    return txt
+
+# if there are too much pmid to query, query url once may get an error, so we can query url multiple times and in each time we only get part of these pmid articles.
+# Input: a list of PMID
+# Return: a list of ArticleObject.
+def queryPubmedLongListReturnObjectList(pmidList): 
+    PubmedArticleSet = []
+    split_threshold = 100
+    if(len(pmidList)<split_threshold):
+        txt = queryPubmed(pmidList)
+        data = parseString(txt).documentElement
+        PubmedArticleSet = data.getElementsByTagName("PubmedArticle") # PubMed Article Object
+    else:
+        PubmedArticleSet = []
+        for i in range(int(len(pmidList)/split_threshold)+1):
+            start_index = i*split_threshold
+            final_index = (i+1)*split_threshold if (i+1)*split_threshold < len(pmidList) else len(pmidList)
+            subList = pmidList[start_index:final_index]
+            txt = queryPubmed(subList)
+            data = parseString(txt).documentElement
+            #PubmedArticleSet.append(data.getElementsByTagName("PubmedArticle")) # PubMed Article XML Node Object
+            PubmedArticleSet += data.getElementsByTagName("PubmedArticle") # PubMed Article XML Node Object
+    return PubmedArticleSet
+            
 # Get citation information
 def getCitations(pmid:int) -> (list,list):
     print(f"get citation information of article `{pmid}`")
@@ -257,18 +338,17 @@ def getCitations(pmid:int) -> (list,list):
     # get details of each citation article from efetch API
     citDetails = []
     if(len(citations)>0):
-        queryID = ""
-        for c in citations: queryID += f"{c},"
-        queryID = queryID[0:-1]
-        url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&api_key=ae4e7d262dc452dece0be6c4a7e06d9ccc09&id={queryID}"
-        print(url)
-        req = requests.get(url)
-        req.encoding = "utf-8"
-        txt = req.text
-        data = parseString(txt).documentElement
-        PubmedArticleSet = data.getElementsByTagName("PubmedArticle") # PubMed Article Object
-        for e in PubmedArticleSet:
-            artObj,c1,c2 = processPubmedArticle(e)
+        PubmedArticleSet = queryPubmedLongListReturnObjectList(citations)
+        #print(f" PubmedArticleSet={PubmedArticleSet}") #debug
+        print(f"len of PubmedArticleSet = {len(PubmedArticleSet)};\tlen of citations = {len(citations)}")
+        for i in range(len(citations)):
+            try:
+                e = PubmedArticleSet[i]
+                artObj,c1,c2 = processPubmedArticle(e)
+            except Exception as e1:
+                print(f"An error occurred during xml process. Useful message:{e1}")
+                artObj = ArticleObject(citations[i])
+            #print(f"Debug: pmid in citation list[{i}]={citations[i]}. while pmid in artObj = {artObj.PMID}") #debug
             citDetails.append(artObj)
     return (citEdge,citDetails)
 
@@ -308,17 +388,20 @@ def parseXML(xmlText):
         artObj_dt = artObj.toDict()
         artObj_dt["category"] = 1 # set category as "query"
         pmid = artObj_dt["PMID"]
-        artObj_dt["name"] = json.dumps(artObj.toSimpleDict(),indent="\t")
+        #artObj_dt["name"] = json.dumps(artObj.toSimpleDict(),indent="\t")
+        artObj_dt["name"] = artObj.toTooltip()
         data_dt["nodes"].append(artObj_dt);PMID_dict[pmid] = i;i+=1
         # storage reference information
-        #print("refEdge=")
-        #print(refEdge)
+        #print("refEdge=",refEdge) #debug
+        #print("refArt=")#debug
+        #for ixx in refArt:print(ixx.PMID) #debug
         edgeList    += refEdge
         refArticles += refArt
         # get citations and storage citation information
         citEdge,citArt = getCitations(pmid)
-        #print("citEdge=")
-        #print(citEdge)
+        #print("citEdge=",citEdge)#debug
+        #print("citArt=")#debug
+        #for ixx in citArt:print(ixx.PMID) #debug
         edgeList    += citEdge
         citArticles += citArt
     for c in citArticles:
@@ -326,7 +409,8 @@ def parseXML(xmlText):
         c_dt["category"] = 2 # set category as "citation"
         pmid = c_dt["PMID"] 
         #print(f"cit\t{pmid}")
-        c_dt["name"] = json.dumps(c.toSimpleDict(),indent="\t")
+        #c_dt["name"] = json.dumps(c.toSimpleDict(),indent="\t")
+        c_dt["name"] = c.toTooltip()
         if(pmid not in PMID_dict):
             data_dt["nodes"].append(c_dt);PMID_dict[pmid] = i;i+=1
     for f in refArticles:
@@ -334,11 +418,13 @@ def parseXML(xmlText):
         f_dt["category"] = 0 # set category as "reference"
         pmid = f_dt["PMID"]
         #print(f"ref\t{pmid}")
-        f_dt["name"] = json.dumps(f.toSimpleDict(),indent="\t")
+        #f_dt["name"] = json.dumps(f.toSimpleDict(),indent="\t")
+        f_dt["name"] = f.toTooltip()
         if(pmid not in PMID_dict):
             data_dt["nodes"].append(f_dt);PMID_dict[pmid] = i;i+=1
+    #print("PMID_dict=",PMID_dict) #debug
     for d in edgeList:
-        #print(d)
+        #print("d=",d) #debug
         source_pmid = d[0]
         target_pmid = d[1]
         source_index = PMID_dict[source_pmid]
@@ -348,18 +434,7 @@ def parseXML(xmlText):
             data_dt["links"].append(edge_dt)
     return data_dt
 
-def queryPubmed(pmidList):
-    #print(pmidList)
-    queryId = ""
-    for i in pmidList:
-        queryId += f"{i},"
-    queryId = queryId[0:-1]
-    url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&api_key=ae4e7d262dc452dece0be6c4a7e06d9ccc09&id={queryId}"
-    print(url)
-    req = requests.get(url)
-    req.encoding = "utf-8"
-    txt = req.text
-    return txt
+
 
 
 def getPmidListFromFile(fpath):
