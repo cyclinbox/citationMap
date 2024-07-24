@@ -224,8 +224,14 @@ def processMedlineCitation(element) -> ArticleObject:
     try:      title   = artMeta.getElementsByTagName("ArticleTitle")[0].childNodes[0].nodeValue
     except:   title   = ""
     ## Abstract
-    try:      abstract = artMeta.getElementsByTagName("Abstract")[0].getElementsByTagName("AbstractText")[0].childNodes[0].nodeValue
-    except:   abstract = ""
+    abstract = ""
+    try: 
+        abstractNodeList = artMeta.getElementsByTagName("Abstract")[0].getElementsByTagName("AbstractText")[0].childNodes
+        for i in range(len(abstractNodeList)):
+            n = abstractNodeList[i]
+            try:   abstract += n.nodeValue
+            except:pass # some node don't have attribute "nodeValue", we don't need to process them.
+    except Exception as e1: print(f"Warning: an exception occurred when extract abstract text: {e1}") 
     ## DOI
     doi = ""
     try:
