@@ -17,8 +17,8 @@ body{background-color:#efefef;}
     display:inline-block;
     text-align:left;
     /*float:left;*/
-    width:25%;
-    height:800px;
+    width:36%;
+    min-height:800px;
     margin:10px;
     padding:5px;
     border-radius:20px;
@@ -34,7 +34,7 @@ body{background-color:#efefef;}
     display:inline-block;
     text-align:left;
     /*float:center;*/
-    width:48%;
+    width:60%;
     height:800px;
     margin:10px;
     padding:5px;
@@ -54,17 +54,32 @@ body{background-color:#efefef;}
     border-left: solid 3px #8af; 
 
 }
+
+#article-card div {
+  margin: 0 20px 0 35px;
+  text-align: justify;
+  hyphens: auto;
+  word-break: keep-all;
+  white-space: normal;
+}
+
+#article-card p {
+  margin: 10px 0 0 20px;
+  font-weight: bold;
+  color: #8AC;
+}
+
         </style>
     </head>
     <body>
         <h1>network visualization</h1>
         <div class="row">
             <!----- Left side panel, for listing reference/citation links ----->
-            <div id="left-side-panel" class="side-panel">
+            <!---div id="left-side-panel" class="side-panel">
                 <div class="panel-title">
                     <h2>Related articles</h2>
                 </div>
-            </div>
+            </div--->
             <!----- Main panel, the canvas for citation map showing ----->
             <div id="main-side-panel" class="side-panel">
                 <div class="panel-title">
@@ -79,20 +94,28 @@ body{background-color:#efefef;}
                     <h2>Current article</h2>
                 </div>
                 <div id="article-card">
+                    <p>Title:</p>
                     <div id="article-title">
                     </div>
+                    <p>Authors:</p>
                     <div id="article-authors">
                     </div>
+                    <p>Journal:</p>
                     <div id="article-journal">
                     </div>
+                    <p>Published date:</p>
                     <div id="article-date">
                     </div>
+                    <p>PMID:</p>
                     <div id="article-pmid">
                     </div>
+                    <p>DOI:</p>
                     <div id="article-DOI">
                     </div>
+                    <p>Citation string:</p>
                     <div id="article-citation">
                     </div>
+                    <p>Abstract:</p>
                     <div id="article-abstract">
                     </div>
                 </div>
@@ -181,7 +204,10 @@ myChart.on('click', function (params) {
     var authorList = dat.authorList;
     var journal    = dat.journal;
     var date_      = dat.date;
-    var pmid       = dat.pmid;
+    var pmid       = dat.PMID;
+    if(pmid<0){
+        pmid = "undefined";
+    }
     var doi        = dat.DOI;
     var citation   = dat.citation;
     var abstract   = dat.abstract;
