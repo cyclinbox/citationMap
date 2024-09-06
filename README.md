@@ -7,6 +7,7 @@ This project is aimed at make a citation map visualizing tool, which can visuali
 ```text
 ./
 |-   app.py
+|-   get_result_in_table_formation.py
 |-   citation_map.json
 |-   example.PMID.txt
 |-   index.html
@@ -118,6 +119,27 @@ python ./app.py -l 24651067,32286628,32184769,31606751
 ```
 
 The output is the same as above method.
+
+
+## Export mining results
+
+I provide a stript file called `get_result_in_table_formation.py`, which is for converting json document into a readable tsv file.
+
+Usage:
+
+```
+python get_result_in_table_formation.py
+```
+
+(with no parameter. The script will load `citation_map.json` file and write result into `result_exported.tsv` file.)
+
+The output file `result_exported.tsv` is like this:
+
+```
+        index   count   PMID    title   journal authorList      DOI     date    PMC     citation        abstract        category        name
+0       0       250.0   24651067        CRISPR/Cas9 for genome editing: progress, implications and challenges.  Human molecular genetics        ['Zhang Feng', 'Wen Yan', 'Guo Xiong']10.1093/hmg/ddu125       2015-05-11                      Clustered regularly interspaced short palindromic repeats (CRISPR)/CRISPR-associated (Cas) protein 9 system provides a robust and multiplexable genome editing tool, enabling researchers to precisely manipulate specific genomic elements, and facilitating the elucidation of target gene function in biology and diseases. CRISPR/Cas9 comprises of a nonspecific Cas9 nuclease and a set of programmable sequence-specific CRISPR RNA (crRNA), which can guide Cas9 to cleave DNA and generate double-strand breaks at target sites. Subsequent cellular DNA repair process leads to desired insertions, deletions or substitutions at target sites. The specificity of CRISPR/Cas9-mediated DNA cleavage requires target sequences matching crRNA and a protospacer adjacent motif locating at downstream of target sequences. Here, we review the molecular mechanism, applications and challenges of CRISPR/Cas9-mediated genome editing and clinical therapeutic potential of CRISPR/Cas9 in future.      1       Zhang Feng,2015
+1       1       106.0   32286628        Machine learning predicts new anti-CRISPR proteins.     Nucleic acids research  ['Eitzinger Simon', 'Asif Amina', 'Watters Kyle E', 'Iavarone Anthony T', 'Knott Gavin J', 'Doudna Jennifer A', 'Minhas Fayyaz Ul Amir Afsar'] 10.1093/nar/gkaa219     2020-09-08                      The increasing use of CRISPR-Cas9 in medicine, agriculture, and synthetic biology has accelerated the drive to discover new CRISPR-Cas inhibitors as potential mechanisms of control for gene editing applications. Many anti-CRISPRs have been found that inhibit the CRISPR-Cas adaptive immune system. However, comparing all currently known anti-CRISPRs does not reveal a shared set of properties for facile bioinformatic identification of new anti-CRISPR families. Here, we describe AcRanker, a machine learning based method to aid direct identification of new potential anti-CRISPRs using only protein sequence information. Using a training set of known anti-CRISPRs, we built a model based on XGBoost ranking. We then applied AcRanker to predict candidate anti-CRISPRs from predicted prophage regions within self-targeting bacterial genomes and discovered two previously unknown anti-CRISPRs: AcrllA20 (ML1) and AcrIIA21 (ML8). We show that AcrIIA20 strongly inhibits Streptococcus iniae Cas9 (SinCas9) and weakly inhibits Streptococcus pyogenes Cas9 (SpyCas9). We also show that AcrIIA21 inhibits SpyCas9, Streptococcus aureus Cas9 (SauCas9) and SinCas9 with low potency. The addition of AcRanker to the anti-CRISPR discovery toolkit allows researchers to directly rank potential anti-CRISPR candidate genes for increased speed in testing and validation of new anti-CRISPRs. A web server implementation for AcRanker is available online at http://acranker.pythonanywhere.com/.     1       Eitzinger Simon,2020
+```
 
 
 ## Pitfalls
