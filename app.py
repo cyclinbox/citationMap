@@ -23,9 +23,40 @@ import random
 import requests
 import http.server
 import socketserver
-import os,sys
+import os,sys,time
 import argparse
 
+proxies={
+    'http' : 'http://127.0.0.1:7890',
+    'https': 'http://127.0.0.1:7890'
+}
+
+
+def request_with_retry(url, proxies=None, timeout=10, retry=3):
+    for i in range(retry):
+        try:
+            try:    
+                response = requests.get(url, proxies=proxies, timeout=timeout)
+            except: 
+                try:
+                    response = requests.get(url, timeout=timeout)
+                except:
+                    response = None
+            finally:
+                if (response is not None) and (response.status_code < 500): 
+                    return response
+                elif response is None:
+                    print(f"response is None, retrying... ({i+1}/{retry})")
+                else:                          
+                    print(f"Received {response.status_code}, retrying... ({i+1}/{retry})")
+        except requests.exceptions.RequestException as e:
+            print(f"Request failed (attempt {i+1}/{retry}): {e}")
+        if i < retry - 1:
+            wait_time = (2 ** i) * 1.0  # 1s, 2s, 4s...
+            print(f"Waiting {wait_time}s before retry...")
+            time.sleep(wait_time)
+        else: print("All retries failed.")
+    return None  
 
 class ArticleObject:
     PMID       = 0
@@ -272,8 +303,15 @@ def processPubmedArticle(element) -> (ArticleObject,list): # Top level process
 
 # Parse citation information from a xml string
 def parseCitation(string):
+    if(string==""):
+        return []
     data = parseString(string).documentElement
-    linkSets = data.getElementsByTagName("LinkSet")[0].getElementsByTagName("LinkSetDb")
+    try:
+        linkSets = data.getElementsByTagName("LinkSet")[0].getElementsByTagName("LinkSetDb")
+    except Exception as e:
+        print(f"An error occurred during parseCitation. Message: {e}")
+        print(f"[debug info]:data.getElementsByTagName(LinkSet)=",data.getElementsByTagName("LinkSet"))
+        linkSets = []
     dt = {}
     for s in linkSets:
         DbTo     = s.getElementsByTagName("DbTo"    )[0].childNodes[0].nodeValue
@@ -300,7 +338,9 @@ def queryPubmed(pmidList):
     queryId = queryId[0:-1]
     url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&api_key=ae4e7d262dc452dece0be6c4a7e06d9ccc09&id={queryId}"
     print(url)
-    req = requests.get(url)
+    req = request_with_retry(url,proxies=proxies)
+    if(req is None):
+        return ""
     req.encoding = "utf-8"
     txt = req.text
     return txt
@@ -313,8 +353,11 @@ def queryPubmedLongListReturnObjectList(pmidList):
     split_threshold = 100
     if(len(pmidList)<split_threshold):
         txt = queryPubmed(pmidList)
-        data = parseString(txt).documentElement
-        PubmedArticleSet = data.getElementsByTagName("PubmedArticle") # PubMed Article Object
+        if(txt==""):
+            pass # do nothing
+        else:
+            data = parseString(txt).documentElement
+            PubmedArticleSet = data.getElementsByTagName("PubmedArticle") # PubMed Article Object
     else:
         PubmedArticleSet = []
         for i in range(int(len(pmidList)/split_threshold)+1):
@@ -322,9 +365,12 @@ def queryPubmedLongListReturnObjectList(pmidList):
             final_index = (i+1)*split_threshold if (i+1)*split_threshold < len(pmidList) else len(pmidList)
             subList = pmidList[start_index:final_index]
             txt = queryPubmed(subList)
-            data = parseString(txt).documentElement
-            #PubmedArticleSet.append(data.getElementsByTagName("PubmedArticle")) # PubMed Article XML Node Object
-            PubmedArticleSet += data.getElementsByTagName("PubmedArticle") # PubMed Article XML Node Object
+            if(txt==""):
+                pass # do nothing
+            else:
+                data = parseString(txt).documentElement
+                #PubmedArticleSet.append(data.getElementsByTagName("PubmedArticle")) # PubMed Article XML Node Object
+                PubmedArticleSet += data.getElementsByTagName("PubmedArticle") # PubMed Article XML Node Object
     return PubmedArticleSet
             
 # Get citation information
@@ -332,9 +378,12 @@ def getCitations(pmid:int) -> (list,list):
     print(f"get citation information of article `{pmid}`")
     # get full citation list from elink API
     url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&api_key=ae4e7d262dc452dece0be6c4a7e06d9ccc09&id={pmid}"
-    req = requests.get(url)
-    req.encoding = "utf-8"
-    txt = req.text
+    req = request_with_retry(url,proxies=proxies)
+    if(req is None):
+        txt = ""
+    else:
+        req.encoding = "utf-8"
+        txt = req.text
     citations = parseCitation(txt)
     citEdge = []
     for c in citations:
@@ -376,8 +425,11 @@ def parseXML(xmlText):
             "links":[]
             }
     # Read XML document
-    data = parseString(xmlText).documentElement
-    PubmedArticleSet = data.getElementsByTagName("PubmedArticle") # PubMed Article Object
+    if(xmlText==""):
+        PubmedArticleSet = []
+    else:
+        data = parseString(xmlText).documentElement
+        PubmedArticleSet = data.getElementsByTagName("PubmedArticle") # PubMed Article Object
     # use a dict to avoid duplicated object
     PMID_dict = {} # dict of "int" type. key: PMID; value: article index in `data_dt["nodes"]`
     i = 0
@@ -445,7 +497,7 @@ def parseXML(xmlText):
 
 def getPmidListFromFile(fpath):
     pmidList = []
-    with open(fpath,'r') as f:
+    with open(fpath, 'r', encoding="utf-8") as f:
         for line in f:
             if(line[0]=="#"):continue
             if(len(line)<2):continue
